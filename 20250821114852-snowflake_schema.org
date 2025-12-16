@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       41ada4f5-18b8-4fb8-b833-4d5b6f216147
+:END:
+#+title: Snowflake Schema
+
+[[id:61fa7b12-a4cf-41f2-98f6-732410f362aa][Database schema]] similar to [[id:7e79d06c-6b6d-4c7c-98dc-77deb2e33d94][star schema]] where a central [[id:e9a7cb26-87d7-4b86-bb25-f7cdc4538df1][fact table]] is connected
+to [[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][dimension tables]], except tables are [[id:5636a488-dd17-4a92-befd-d16eaa0a526d][normalized]] and broken down into sub
+tables to reduce redundancy.
+
+* Pros
+
+- Lower storage requirements due to reduced data redundancy
+- Easier maintenance due to improved data integrity and consistency
+
+* Cons
+
+- Slower performance than if data were denormalized

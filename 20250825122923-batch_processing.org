@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3f611b1d-3e83-4d0f-8687-7bb3019c394e
+:END:
+#+title: Batch Processing
+
+Method of running software jobs in an automated and unattended manner.

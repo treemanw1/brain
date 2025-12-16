@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       c0325ddd-57ec-43b0-9b56-53a9e0eacc57
+:END:
+#+title: Coroutines
+
+Method of achieving [[id:7becff42-22af-4528-b940-5ebbedb25ab4][asynchrony]] through functions that can be paused and resumed
+without hogging [[id:87685450-9446-49dd-aee0-0ae8928c59f2][threads]].
+
+Requires some scheduler or [[id:221f21f0-a806-4840-8c91-dc193c9710b6][event loop]] to drive return of control and yielding to
+and from coroutines.
+
+* Examples
+
+- Python's [[id:97014a42-7491-48cd-bcc8-92e04f5c552d][asyncio]]

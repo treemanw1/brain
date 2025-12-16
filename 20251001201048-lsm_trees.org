@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       36d25dad-dcf4-473a-9b1d-fd63a40a91b3
+:END:
+#+title: LSM-Trees
+
+a.k.a. Log-Structured Merge Trees
+
+Combination of an in-memory data structure that accepts key-value pairs in
+random order and allows reads in sorted order (usually memory-balanced trees
+like Red-Black or AVL Trees) and [[id:99fece36-c02a-4f62-a93b-2d1e360f172c][SSTables]].
+
+* Workflow
+
+1. Insert key-value data into the in-memory tree.
+
+2. Once the in-memory tree exceeds some threshold, flush its data to disk as a
+   SSTable.
+
+3. Periodically perform compaction and merging of SSTables to save disk space.
+
+4. Keep an append-only log of inserted data on disk in the event the database
+   crashes to recover in-memory data.
+
+
+* Usage
+
+- On read, a Bloom Filter may be used to test for presence of a key in the
+  in-memory tree and SSTable segments.
+
+
+* Advantages
+
+** 1. Lower [[id:3f6b7a3a-fd93-4a72-a9a3-234159b9be5d][Write Amplification]]
+
+LSM-Trees typically have lower write overhead compared to [[id:312f21d2-8541-4f53-a6ed-cb9976c05222][B-Trees]].
+
+In B-Trees, data needs to be written to the write-ahead log and to the tree page
+itself, and the entire disk page needs to be rewritten on change.
+
+** 2. Sequential Writes
+
+Merging and compacting operations in LSM-Trees are also sequential, which are faster compared to random writes.
+
+** 3. Disk Space
+
+LSM-Trees can be compressed better. B-Trees also waste more disk space due to
+fragmentation (unused space within pages).

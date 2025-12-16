@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       347fc663-140f-4a22-b80c-36bcac57423d
+:END:
+#+title: Persistent vs Transient Messages
+
+Persistent messages: Guaranteed to be delivered at least once by being stored
+until successful delivery.
+
+Transient messages: Only delivered if the recipients is online at the moment of
+transmission. Discarded if delivery fails.

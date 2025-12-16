@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d372d50f-44de-42d9-b4a4-6e9f84cbab79
+:END:
+#+title: VPC
+
+Private, isolated virtual network within [[id:c9c96b2d-38a5-4c16-8376-c6611a561160][AWS]].

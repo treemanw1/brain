@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       6212ab85-8ba9-4fef-aeb4-0d8598580996
+:END:
+#+title: Nginx
+
+High-performance, open-source web server and [[id:70be5fd1-b765-4c1d-8475-07d9053fe680][reverse proxy]] server.
+
+Commonly used as a load balancer, HTTP cache and mail proxy.
+
+Excellent at handling a large number of concurrent connections due to its
+[[id:7becff42-22af-4528-b940-5ebbedb25ab4][asynchronous]], event-driven architecture.
+
+

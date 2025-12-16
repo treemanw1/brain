@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       8e388f87-1fa7-495a-b942-f8e8d4bed53a
+:END:
+#+title: Failover
+
+Technique used by a distributed system to handle the failure of a leader node
+under [[id:40f1985e-7c82-402b-847b-38733fda2d82][leader-based replication]].
+
+Process by which a follower is promoted to the new leader, clients reconfigured
+to send their writes to this new leader, and followers reconfigured to consume
+data changes from the new leader.
+
+* Potential Issues
+
+- Write losses from previous leader if asynchronous replication is used
+- [[id:dce73538-4720-457e-8cad-4a32d63407da][Split Brain]]
+- Selecting an optimal timeout for declaring a dead leader

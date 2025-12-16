@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       97014a42-7491-48cd-bcc8-92e04f5c552d
+:END:
+#+title: asyncio
+
+[[id:7fb025f1-7f3a-440a-b811-9a382edb97ba][Python]] library that provides [[id:7becff42-22af-4528-b940-5ebbedb25ab4][asynchronous programming]].

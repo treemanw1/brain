@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       55b428ac-536d-47f3-a6a5-180d5da979db
+:END:
+#+title: Hash Index (Databases)
+
+Indexing technique where an in-memory hash map maps keys to the physical
+location of data records a log/disk with data being sequentially appended to
+said log.
+
+Disk space is preserved by breaking the log into segments they reach a certain
+size, after which segments are "compacted" by discarding duplicate keys in the
+log and merged with other segments.
+
+Each segment has its own corresponding in-memory hash map tracking key to file
+offets.
+
+* Advantages
+
+1. Speed: Sequential writes are generally much faster than random writes,
+   especially on magnetic spinning-disk hard drives.
+
+2. Concurrency: Append-only log means no overwriting existing data. No need to
+   manage race conditions, only require atomic operations at one single point at
+   the end of the log.
+
+3. Crash-recovery: Log is the source of truth containing history of all writes.
+
+* Disadvantages
+
+1. Hash table must fit in memory, so this won't work with a large number of
+   keys.
+
+2. Ineffecient range queries on keys.

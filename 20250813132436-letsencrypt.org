@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b9df7ca7-25f2-49b6-bb5b-cbc14615e3f7
+:END:
+#+title: Let's Encrypt
+
+Non-profit [[id:46158213-90f2-476a-bde0-c74d94e0f7a1][Certificate Authority]] that provides free [[id:3d819ad3-802d-4f5e-9639-bdd5231de2c8][certificates]] for TLS
+encryption. Free and automates issuance and renewal via the ACME (Automated Certificate
+Management Environment) protocol.

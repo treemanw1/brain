@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1bb5881b-11c4-4ae3-8d8f-6cbf26d00340
+:END:
+#+title: Resilient Distributed Dataset (Spark)
+
+Immutable, distributed collection of objects partitioned across nodes in a
+cluster that can be operated with a low-level API.

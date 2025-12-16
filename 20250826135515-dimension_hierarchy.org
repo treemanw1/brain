@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       2146c531-4313-45bd-8850-038009be5744
+:END:
+#+title: Dimension Hierarchy
+
+Ordered levels of granularity within a [[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][dimension]].
+
+e.g. Day -> Month -> Quarter -> Year
+
+* Types of Hierarchies
+
+1. [[id:8fb7f52a-b00b-4075-997e-3309e5a65c8b][Fixed Depth Positional Hierarchy]]
+2. [[id:43d322a6-21a2-40ef-b0d4-e94819df54a3][Slightly Ragged/Variable Depth Hierarchy]]
+3. [[id:d613f9dd-0a26-4499-9b12-947a9be0fedc][Ragged/Variable Depth Hierarchy]]

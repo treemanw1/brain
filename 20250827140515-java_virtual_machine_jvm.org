@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2724ac12-ea37-45f8-a3a9-760f6baeffaa
+:END:
+#+title: Java Virtual Machine (JVM)
+
+Platform dependent [[id:9a650fe7-0963-41fa-914c-8498c677731e][process virtual machine]] that enables different platforms to
+run Java programs or any program compiled to Java bytecode.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8b107edd-0d3f-4c9a-94a1-3c4fdeb9f4e0
+:END:
+#+title: Pod
+
+Smallest object in Kubernetes, 1:1 with a container and application (usually).

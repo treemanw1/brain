@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       61fa7b12-a4cf-41f2-98f6-732410f362aa
+:END:
+#+title: Database Schema
+
+Blueprint of the logical layout of a [[id:783a2d90-0561-4f4e-8e00-127d98880dce][database]], outlining how data is organized
+and structured.

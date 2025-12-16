@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       f5a4651e-5e80-4746-bdf3-f103d67a016c
+:END:
+#+title: Slowly changing dimension (SCD)
+
+[[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][Dimension table]] that over time, changes in an unpredictable manner, e.g.
+geographical locations, customer details
+
+* SCD Types
+
+0. Retain Original: e.g. DOB
+
+1. Overwrite
+   - Destroys history
+   - Be mindful of effect on aggregate fact tables
+
+2. Add New Row
+   - Preserves history
+   - Primary key can no longer be a [[id:1f23a0f3-e867-4a77-91dd-419d66f034e9][natural]]/[[id:ee53ce1b-6f75-4d87-9c6a-5c2013d9b188][durable]] key, needs to be a [[id:0e4f9317-012d-4f98-8e4b-94c411b9b77e][surrogate]]
+     key
+   - Minimum of three columns required: row effective date/datetime, row
+     expiration date/datetime, current row indicator
+
+3. Add New Attribute
+   - New column in dimension table to preserve old attribute value
+   - Not frequently used
+
+4. Add Mini-Dimension
+   - Extract rapidly changing attributes into a separate dimension
+
+5. Add Mini-Dimension + Type 1 Outrigger
+   - Stores historical versions in a mini-dimension while main dimension keeps
+     the latest value and a reference to the mini-dimension
+
+6. Add Type 1 Attributes to Type 2 Dimension
+   - Same as Type 2 except additional latest version attributes are added
+     columns for easy reference, e.g. CurrentAddress
+
+7. Dual Type 1 and Type 2 Dimensions
+   - Same as Type 2 except both durable/natural and surrogate keys are enforced
+     so that users can view the table as either Type 1 or Type 2

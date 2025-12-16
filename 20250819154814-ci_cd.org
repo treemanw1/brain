@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       fb2738fb-3de8-4415-83f2-45bbe88ead61
+:END:
+#+title: CI/CD
+
+Continuous Integration & Continuous Delivery/Deployment
+
+Software Development practice that automates process of integrating code
+changes, testing, and deploying applications.
+
+* Continuous Delivery vs Continuous Deployment
+
+Continuous Delivery: Ensures code changes are always in a deployable state
+before a manual production release.
+
+Continuous Deployment: Automation of the deployment process to production
+
+* Tools
+[[id:8303f509-1ab5-43f8-a2b4-53c294dc555d][Bamboo]]
+[[id:4b1602b6-3a94-4f40-92f2-bfab3f8e91a6][CircleCI]]

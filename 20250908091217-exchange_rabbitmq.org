@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       03f9d519-2d05-4330-84ea-7fcbd3213329
+:END:
+#+title: Exchange (RabbitMQ)
+
+Entity where messages are published to and then routed to a set of queues or
+streams.
+
+Exchange types include direct, topic, headers and fanout.

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       e4962b28-b41f-4a5d-82fd-3441dafb9ad1
+:END:
+#+title: Terraform
+
+Open source IaC tool used to define, [[id:c404b5d0-aecb-4008-8915-ac33176ee7e9][provision]], and manage cloud and [[id:988deefa-8094-4eb4-8b4c-19d5678984c3][on-prem]]
+infrastructure using declarative configuration files.
+
+Provisioning is automated by simply by writing human-readable configuration
+files which Terraform references to create/update/delete resources accordingly
+through API calls to cloud providers.
+
+
+Plug-and-play with cloud providers, requires more setup with on-prem
+infrastructure.
+
+* Concepts
+
+** Providers
+Drivers that integrate with specific cloud providers.

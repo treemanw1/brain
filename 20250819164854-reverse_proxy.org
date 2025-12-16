@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       70be5fd1-b765-4c1d-8475-07d9053fe680
+:END:
+#+title: Reverse Proxy
+
+Server that sits before backend servers, intercepting client traffic and
+forwarding requests to appropriate backend servers.
+
+Uses include load balancing, caching, SSL termination and security.

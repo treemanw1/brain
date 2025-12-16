@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       beebead9-8c0a-4e60-977e-56ca4a1cc070
+:END:
+#+title: Container Orchestration
+
+Process of managing and automating containers, including deployment, scaling,
+and networking across multiple hosts.
+
+* Technologies
+
+[[id:566854f1-48fd-4452-9a34-246018307516][Kubernetes]]

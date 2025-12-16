@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       3d819ad3-802d-4f5e-9639-bdd5231de2c8
+:END:
+#+title: Certificate
+
+Combination of Certificate data (public key, identity information, etc.) and the
+digital signature.
+
+* How is the digital signature generated?
+
+Certificate data (public key, identity info, validity dates, extensions, etc.)
+is hashed and then encrypted with the CA private key.
+
+* How is the certificate verified?
+
+The signature is verified by decrypting the signature with the CA's public key
+and comparing that hash with the hashed certificate data in the certificate.

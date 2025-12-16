@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3f6b7a3a-fd93-4a72-a9a3-234159b9be5d
+:END:
+#+title: Write Amplification
+
+The number of writes to disk on one write to the database over the course of the
+database's lifetime.

@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       915c1abb-49d5-4c14-9335-389a290658f8
+:END:
+#+title: Event Hub (Azure)
+
+Microsoft [[id:7e6d63ac-69c2-4cee-b8df-5a4420a22921][Azure]]'s high throughput, low latency, big data streaming platform and
+event ingestion service. Basically [[id:255d128f-ffc8-4d6e-82ab-b9f9197ca60f][Kafka]] as a managed service.
+
+* How it works
+
+Each Event Hub is roughly equivalent to a [[id:110b962b-36fc-484e-aafe-7367e21cd7af][topic]] / corresponds to a single
+logical stream of events.
+
+* Concepts
+
+1. Namespace: Management container for organizing event-handling resources, e.g.
+   queues and topics.
+
+2. Partitions: Number of partitions is declared when creating the Event Hub and
+   cannot be changed.
+
+3. Checkpoints: Markers stored by a consumer that record the [[id:9a034611-b04d-4ca2-ae09-306af78793dd][offset]] of the last
+   successfully processed event in the partition.
+
+4. Throughput Units: Mechanism in Event Hub for scaling capacity.
+
+   Ingress Limit: 1 MB/s or 1000 events/s
+   Egress Limit: 2 MB/s or 4096 events/s
+
+   Can purchase up to 20 TUs per Event Hub.

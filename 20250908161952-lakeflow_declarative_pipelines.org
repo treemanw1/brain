@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       30be96ef-f606-47c6-a286-7cd224b30294
+:END:
+#+title: Lakeflow Declarative Pipelines
+
+Declarative framework that defines transformations in Python or SQL
+declaratively, and where system handles orchestration, dependency resolution,
+and optimization.

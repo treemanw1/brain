@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3cc81cb9-5cf8-442a-9b2b-d14528f56c01
+:END:
+#+title: Cluster
+
+Collection of nodes.

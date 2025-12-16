@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       bd85ba9f-7f5d-4f1d-b689-b2e7cf66437f
+:END:
+#+title: Statement-Based Replication
+
+Simplest implementation where every write request is logged and sent to
+followers with SQL ~INSERT~, ~UPDATE~, and ~DELETE~ statements.
+
+Other implementations are usually preferred due to the below issues.
+
+* Issues
+
+1. Nondeterministic functions, e.g. ~NOW()~ or ~RAND()~ generate a different
+   value on different nodes.
+
+2. Statements that use autoincrementing columns must be executed in the exact
+   same order on all replicas.
+
+Many edge cases which make this implementation not really worth it.

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       3c0a3326-4019-47dd-b9d3-3a9f404d6a8f
+:END:
+#+title: Spark
+
+Open-source engine for large-scale data processing managed by Apache.
+
+* Concepts
+
+[[id:1bb5881b-11c4-4ae3-8d8f-6cbf26d00340][Resilient Distributed Dataset (RDD)]]
+[[id:ec4e74ef-9c7e-4006-88a1-76674d193578][DataFrame]]
+[[id:399eb886-c008-47ed-bb50-63367222c9ef][Catalyst Optimizer]]
+[[id:40af5944-577c-4c81-9450-ad117c1bce4d][Lazy Evaulation]]
+[[id:5619f6f0-bf69-4e19-bb2f-1bb1a0cee5f7][Shuffles]]
+[[id:b85b0d55-2082-4caa-9765-bc2a6a72fe22][Wide vs Narrow Transformations]]
+[[id:abb051db-6663-428c-b1cf-c07dc726cb0e][Cache & Persist]]

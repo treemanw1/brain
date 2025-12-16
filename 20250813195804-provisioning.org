@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       c404b5d0-aecb-4008-8915-ac33176ee7e9
+:END:
+#+title: Provisioning
+
+Process of setting up and configuring IT infrastructure to support an
+application or service.
+
+Includes setting up physical or virtual hardware, installing and configuring
+software (e.g. OS and applications), connecting to middleware, network and
+storage components.
+
+* Provisioning Tools
+
+- [[id:e4962b28-b41f-4a5d-82fd-3441dafb9ad1][Terraform]]

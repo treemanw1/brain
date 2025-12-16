@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       82cdceb7-bdc5-4de2-8e1f-4665ef27b405
+:END:
+#+title: JIT Compilation
+
+Just-in-time Compilation is compilation during run time rather than before
+execution. Combination of both [[id:4686d6a5-bcf5-4c4c-93ce-07721602dd78][compilation]] and [[id:02c0fc1c-1e1c-432f-a592-824054dbe177][interpretation]].
+
+* How does it work?
+
+Prior to runtime, JIT first identifies hot spots (code that runs often, e.g.
+loops) and translates that code into native machine code directly, bypassing the
+interpreter loop (checking bytecode instructions) for hot code.
+
+During runtime, JIT makes further optimizations, e.g.
+
+- Embedding inline functions directly in the caller to remove call overhead
+- Eliminating bound checks if it sees array sizes don't change
+
+* How does JIT Compilation differ from Interpretation?
+
+JIT doesn't begin interpretation immediately. Rather, it first runs its
+optimizations by compiling hot code into native machine code directly.

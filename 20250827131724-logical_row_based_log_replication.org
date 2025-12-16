@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b3874d76-ca6c-4948-88b0-41e2d801ce62
+:END:
+#+title: Logical (Row-Based) Log Replication
+
+Leader-based replication log implementation that aims to decouple the
+replication log from the storage engine.
+
+Uses a /logical log/, a sequence of records describing writes to database tables
+at granularity of a row.

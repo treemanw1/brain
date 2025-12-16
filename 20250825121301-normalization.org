@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       5636a488-dd17-4a92-befd-d16eaa0a526d
+:END:
+#+title: Normalization
+
+Technique for organizing tables to reduce data redundancy and improve data
+integrity.
+
+* Corollary: Denormalization
+
+Database optimization technique where controlled redundancy is introduced to
+improve query (especially read-heavy) performance.
+
+Achieved by combining data from multiple normalized tables into fewer larger
+tables to reduce the number of joins for data retrieval.

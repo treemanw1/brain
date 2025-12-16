@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8303f509-1ab5-43f8-a2b4-53c294dc555d
+:END:
+#+title: Bamboo
+
+Paid [[id:fb2738fb-3de8-4415-83f2-45bbe88ead61][CI/CD]] service by Atlassian. Integrates better into the Atlassian ecosystem
+with Jira, Confluence and Bitbucket.

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b85b0d55-2082-4caa-9765-bc2a6a72fe22
+:END:
+#+title: Wide vs Narrow Transformations (Spark)
+
+Wide transformations process data with transfers between partitions while narrow
+transformations do not.

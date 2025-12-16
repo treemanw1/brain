@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       c456eb65-bf1f-4113-89b1-b4e5a6c03f1f
+:END:
+#+title: Global Interpreter Lock
+
+Mechanism used in [[id:02c0fc1c-1e1c-432f-a592-824054dbe177][interpreters]] to synchronize thread execution so that only one
+native thread (per process) can execute basic operations at a time.
+
+Consequently, as a general rule the GIL will only allow one thread to execute at
+a time, even on multi core processors.
+
+Examples: [[id:20a9c245-f03d-4764-af27-59e8aa1c2550][CPython]] (standard Python interpreter), MRI
+
+* Advantages
+
+- Single threaded programs are faster with a single global lock rather than
+  multiple locks on individual objects or regions of memory due to management
+  overhead
+- Easier to implement
+
+* Disadvantages
+
+ - Incapable of true [[id:5226859b-93b0-4d6b-8391-df602733c0f4][parallelism]]
+
+* Why would I still need multithreading in Python then?
+
+For I/O bound tasks, where the program spends a lot of time waiting,
+multithreading for concurrency still makes sense.
+
+For CPU bound tasks, yes, multithreading won't improve performance.

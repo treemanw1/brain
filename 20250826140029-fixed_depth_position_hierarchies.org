@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       8fb7f52a-b00b-4075-997e-3309e5a65c8b
+:END:
+#+title: Fixed Depth Positional Hierarchy
+
+[[id:2146c531-4313-45bd-8850-038009be5744][Dimensional hierarchy]] where the number of levels is known and does not change,
+and where each level has its own column in the [[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][dimension table]].
+
+e.g. Day -> Month -> Quarter -> Year

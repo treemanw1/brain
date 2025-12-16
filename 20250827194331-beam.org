@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       54049595-96ac-4e23-84e8-e9ef3842b25f
+:END:
+#+title: BEAM
+
+/Bogdan's Erlang Abstract Machine/ is Erlang's [[id:9a650fe7-0963-41fa-914c-8498c677731e][virtual machine]].

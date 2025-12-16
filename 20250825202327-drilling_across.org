@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       df50ff5a-5db5-4a97-bf03-ebb37e46c37c
+:END:
+#+title: Drilling Across
+
+aka stitch, multipass query
+
+Term used to refer to making separate queries against two or more [[id:e9a7cb26-87d7-4b86-bb25-f7cdc4538df1][fact tables]] by
+performing a sort-merge operation on the common [[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][dimension]] row headers.

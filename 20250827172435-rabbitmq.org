@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       3d987972-93df-4529-aea2-3bee53fac346
+:END:
+#+title: RabbitMQ
+
+[[id:d1dde541-656f-4ecf-9f86-df520e3e850d][Message broker]] written in [[id:64693ac5-642c-40da-8682-aed943fa15d4][Erlang]] that manages, routes, and delivers messages
+between producers and consumers.
+
+Can be used with a variety of protocols including [[id:deaa9650-b870-4367-89e7-964726401c3c][AMQP]], STOMP, MQTT, and others.
+
+* Concepts
+
+- [[id:03f9d519-2d05-4330-84ea-7fcbd3213329][Exchange]]
+
+Streams: Persistent replicated data structure that stores messages in an
+append-only log that can be repeatedly read until expiration, similar to Kafka.
+
+- [[id:b527848e-d9ba-48d6-98f1-ad7373dac781][Queue]]
+- [[id:a9e6b177-3aaa-44b8-a013-544404de8c46][Bindings]]
+- [[id:81987ef0-b1fb-441c-9061-d435e22e24c6][Consumer Acknowledgement and Publisher Confirms]]
+
+* Use cases
+
+/Messaging/ - low-latency and flexible delivery patterns.
+
+1. Long-running tasks to reliably run background jobs
+2. Inter-microservice communication

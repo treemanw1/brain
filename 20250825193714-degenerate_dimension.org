@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       2d4ebda0-98e3-45e7-9c2c-7349f1eae8ef
+:END:
+#+title: Degenerate Dimension
+
+[[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][Dimension]] that has no content except for its primary key, e.g. invoice number
+
+Most common with transaction and accumulating snapshot [[id:e9a7cb26-87d7-4b86-bb25-f7cdc4538df1][fact tables]].

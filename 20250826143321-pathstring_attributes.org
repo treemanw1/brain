@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       a99fb438-7d04-425f-ae0b-f6ba038cc69c
+:END:
+#+title: Pathstring Attributes
+
+Method of representing [[id:d613f9dd-0a26-4499-9b12-947a9be0fedc][variable depth hierarchies]] using a single string that
+encodes the path from the top level down to a give node.
+
+* Pros
+- Easy to store in flat tables
+
+* Cons
+- Slow to subtitute hierarchies
+- Vulnerable to structure changes in the ragged hierarchy

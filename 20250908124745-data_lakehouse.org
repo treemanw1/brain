@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       799590f5-0593-475e-8e6c-f208c369dec7
+:END:
+#+title: Data Lakehouse
+
+Hybrid approach to data storage that can ingest raw data formats like a [[id:3b6616a9-e942-4552-9dae-2a6fa3c134e5][data
+lake]] while also providing ACID transactions and enforced data quality like a
+[[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][data warehouse]].
+
+|             | Data Warehouse                      | Data Lake                    |
+|-------------+-------------------------------------+------------------------------|
+| Cost        | Higher                              | Lower                        |
+| Performance | Optimized for speed and reliability | Less efficient at data query |
+| Use Case    | Business Intelligence               | Big Data                     |
+
+* Use case
+
+Flexible and can cover both business intelligence and advanced analytics use
+cases.

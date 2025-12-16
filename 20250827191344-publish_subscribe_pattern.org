@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       110b962b-36fc-484e-aafe-7367e21cd7af
+:END:
+#+title: Publish-Subscribe Pattern
+
+[[id:7273653b-d9c9-4fc1-a575-47fc688ecc6f][Messaging]] pattern where message senders called publishers categorize messages
+into [[id:a84e29a7-99cb-4261-a1bb-a03074f842bb][topics]] and recipients (subscribers) subscribe to said topics.

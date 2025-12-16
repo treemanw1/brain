@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       863de152-04be-410c-9868-2a145ae7bcde
+:END:
+#+title: Write-Ahead Log
+
+Append-only log where modifications are first written to before some subsequent
+data structure, in order to restore said data structure in the event of a crash.

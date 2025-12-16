@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0c61cbe1-1eee-4e91-bed4-9d56198cf15f
+:END:
+#+title: Workflow Orchestration
+
+Process of automating and managing complex, multi-step processes across
+different systems, ensuring that tasks execute in the correct order.
+
+* Technologies
+
+[[id:d2cdd744-55c4-4e55-941d-e75ff7a0565b][Airflow]]
+[[id:3147c4ea-02fb-4009-81b6-4898522a2f44][AWS Step Functions]]
+[[id:314f32d7-99d0-426f-bc8b-0704fb502eb6][Temporal]]

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       6218ade1-2a92-43fe-a056-d1e382b2cffd
+:END:
+#+title: Write-Ahead Log (WAL) Shipping
+
+Implementation of leader-based replication logging where the storage engine log
+(append-only sequence of bytes containing all database writes), can be used to
+build a replica on another node.
+
+* Issues
+
+The implementation is tightly coupled to the storage engine. Both the leader and
+followers need to have the same versions of the database software.

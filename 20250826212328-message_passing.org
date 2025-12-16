@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       cde4d800-ff12-41af-804e-798e9f0cdb0e
+:END:
+#+title: Message Passing
+
+Method of communication in concurrent/parallel systems where workers communicate
+via message queues instead of shared state.
+
+* Examples
+
+1. [[id:357f54ef-2387-470a-afc6-67d951eb95d4][Go's Channels]]
+
+   Goroutines send and receive messages over typed channels.
+
+2. [[id:64693ac5-642c-40da-8682-aed943fa15d4][Erlang]]/[[id:33e4e2d6-497f-41ee-9eb6-de051c1230a6][Elixir]] Actor Model
+
+   - Every process is an actor with its own mailbox
+   - Sending messages is asynchronous

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       6f61e864-87d2-4e50-8f30-a78bf265da63
+:END:
+#+title: Replication Lag
+
+Consequence of asynchronous replication where reads to [[id:6f34a4f8-a436-4462-b220-7ab8cfcd7d09][asynchronous followers]]
+may contain outdated information. [[id:1b7b20d0-91da-43e1-8f91-e09b2f61c37b][Temporary state where followers eventually
+catch up to the leader.]]
+
+* Problems from Replication Lag
+
+1. Reading Your Own Writes
+2. Monotonic Reads
+3. Consistent Prefix Reads

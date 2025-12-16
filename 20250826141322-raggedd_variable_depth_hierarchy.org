@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       d613f9dd-0a26-4499-9b12-947a9be0fedc
+:END:
+#+title: Ragged/Variable Depth Hierarchy
+
+[[id:2146c531-4313-45bd-8850-038009be5744][Dimension hierarchy]] that has an indeterminate depth, making modeling and
+querying difficult.
+
+* Solutions
+
+1. [[id:9120997c-d3b2-48e1-afce-e03252ad647e][Bridge Tables]]
+2. [[id:a99fb438-7d04-425f-ae0b-f6ba038cc69c][Pathstring Attributes]]

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       9b402805-11de-400a-bbfc-c50cf8cc0bed
+:END:
+#+title: Goroutines
+
+[[id:4239cc28-f098-44a8-84e5-2763d38da50c][Go]]'s lightweight threads of execution designed for massive concurrency. Managed
+by Go's runtime scheduler.
+
+- Smaller starting stack size (~2 KB) compared to OS threads (~1 MB)
+- Multiplexed onto OS threads by Go's M:N scheduler
+- Communicate via [[id:357f54ef-2387-470a-afc6-67d951eb95d4][channels]]

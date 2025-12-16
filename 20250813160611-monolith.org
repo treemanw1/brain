@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       497f45f7-3af8-4d10-89aa-85be1f3ca731
+:END:
+#+title: Monolithic Architecture
+
+Architecture where the entire application code and its dependencies are packaged
+into a single deployable artifact.
+
+Usually all instances share a single database.
+
+* Why don't monolithic applications scale well?
+
+- Singular changes require rebuilding and redeploying the entire application
+- Single crash brings down the entire system
+- Can only scale the entire application, not singular components

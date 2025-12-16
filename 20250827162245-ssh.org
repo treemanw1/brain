@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       280eb5b8-fdcf-492b-8d7e-4be377fb3dfd
+:END:
+#+title: Secure Shell Protocol (SSH)
+
+Crytographic network protocol for operating [[id:ae06b5bb-c4e1-4049-b3d3-791eb0e7f4d2][network services]] securely over an
+unsecured network.

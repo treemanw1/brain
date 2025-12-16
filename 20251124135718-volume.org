@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       df80522a-8895-4b9e-9021-bfa864c5007f
+:END:
+#+title: Volume
+
+Persistent storage outside of the container's ephemeral filesystem that is
+managed by the container platform (e.g. Docker, Kubernetes, ECS).

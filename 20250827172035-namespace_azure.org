@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f8a10233-38e7-431e-9553-14491c773301
+:END:
+#+title: Namespace (Azure)
+

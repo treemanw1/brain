@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       6a20472a-2cf0-4267-a8d1-ad82c66af37d
+:END:
+#+title: Runtime
+
+Environment that exists when a program is running. Runtime may manage an
+application's memory, how the program accesses variables, and how it interfaces
+with the OS, among others.
+
+Typically has some responsibility in setting up the stack and heap and may
+include features such as garbage collection or threads.
+
+[[id:2724ac12-ea37-45f8-a3a9-760f6baeffaa][Java Virtual Machine (JVM)]]
+[[id:54049595-96ac-4e23-84e8-e9ef3842b25f][BEAM]]
+[[id:20a9c245-f03d-4764-af27-59e8aa1c2550][CPython]]

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7a301013-a869-4a39-b538-b747c27f9be8
+:END:
+#+title: Bind Mounts
+
+Mapping of an existing folder or file to another location, with both paths
+pointing to the same content.
+
+Often used in the context of containers where a directory on the host filesystem
+is mounted inside the container (with write access).

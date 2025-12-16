@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4dc82c41-0f4d-42ac-bb5f-24aaae7ce719
+:END:
+#+title: SFTP
+
+a.k.a. SSH/Secure File Transfer Protocol is a network protocol used for file
+access, transfer and management over [[id:280eb5b8-fdcf-492b-8d7e-4be377fb3dfd][SSH]].

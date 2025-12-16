@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       57656e4e-b657-4975-8b60-85dd66445078
+:END:
+#+title: Virtual Machine (disambiguation)
+
+Virtualization or emulation of a computer system. May refer to either:
+
+1. [[id:81f046e6-fc7e-4d1b-b68c-acf13d92a265][System virtual machines]] a.k.a. full virtualization VMs that virtualize an
+   entire machine including the OS.
+
+2. [[id:9a650fe7-0963-41fa-914c-8498c677731e][Process virtual machines]] that are designed to execute programs in a
+   platform-independent environment.

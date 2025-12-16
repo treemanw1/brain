@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a628e7f3-2eaf-4035-a289-5a7533c54f55
+:END:
+#+title: Databricks Asset Bundles
+
+Tool that bundles a complete Databricks project: Notebooks, Resources
+(Workflows, Jobs, Pipelines), Environments.

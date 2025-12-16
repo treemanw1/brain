@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       28d1ab5a-6b18-4cb2-95fa-07c1da735931
+:END:
+#+title: Leaderless Replication
+
+Model where any replica can accept writes from clients.

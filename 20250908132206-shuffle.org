@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5619f6f0-bf69-4e19-bb2f-1bb1a0cee5f7
+:END:
+#+title: Shuffle (Spark)
+
+Expensive process of redistributing data across Spark cluster partitions.
+
+Triggered by specific transformations that require data exchange between
+partitions, e.g. groupBy, groupByKey, join operations, reduceByKey,
+aggregateByKey.

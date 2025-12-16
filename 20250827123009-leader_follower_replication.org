@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       40f1985e-7c82-402b-847b-38733fda2d82
+:END:
+#+title: Leader-Based Replication
+
+Approach to replication where one replica is designated the leader and others
+the followers.
+
+Reads can be to either the leader or followers but writes are only to the
+leader.
+
+* Handling Node Outages
+
+- Follower failure: [[id:ba3b1d0a-878b-4866-a0fa-81dd522ba240][Catch-up recovery]]
+- Leader failure: [[id:8e388f87-1fa7-495a-b942-f8e8d4bed53a][Failover]]
+
+* Leader-Based Log Replication Methods
+- [[id:bd85ba9f-7f5d-4f1d-b689-b2e7cf66437f][Statement-Based Replication]]
+- [[id:6218ade1-2a92-43fe-a056-d1e382b2cffd][Write-ahead log (WAL) Shipping]]
+- [[id:b3874d76-ca6c-4948-88b0-41e2d801ce62][Logical (Row-Based) Log Replication]]

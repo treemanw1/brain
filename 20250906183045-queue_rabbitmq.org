@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b527848e-d9ba-48d6-98f1-ad7373dac781
+:END:
+#+title: Queue (RabbitMQ)
+
+Queues: Ordered collection of messages.
+
+* Durability
+
+Queues can be durable or transient. Metadata data for durable and transient
+queues are stored on disk and in memory respectively.

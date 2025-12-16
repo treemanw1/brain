@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a6f94eaa-a23f-43e7-aeca-90b9a69d45b1
+:END:
+#+title: S3
+
+[[id:c9c96b2d-38a5-4c16-8376-c6611a561160][AWS]] object storage service.

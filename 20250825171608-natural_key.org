@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1f23a0f3-e867-4a77-91dd-419d66f034e9
+:END:
+#+title: Natural Key
+
+Key that originates from a business-defined source system (e.g. CRM, HR), that
+may change and that may differ across different systems.

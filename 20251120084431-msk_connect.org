@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e99facdb-9722-437c-991e-8c4cd41f71b0
+:END:
+#+title: MSK Connect (AWS)
+
+[[id:45e07c0f-2e73-453b-996d-09d65e1b0d05][MSK]] feature that simplifies the streaming of data to and from MSK clusters.

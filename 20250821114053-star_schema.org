@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       7e79d06c-6b6d-4c7c-98dc-77deb2e33d94
+:END:
+#+title: Star Schema
+
+[[id:61fa7b12-a4cf-41f2-98f6-732410f362aa][Database schema]] where data is structured to be easily understood and queried
+fast, usually for reporting/dashboard use cases.
+
+Comprises of a central [[id:e9a7cb26-87d7-4b86-bb25-f7cdc4538df1][fact table]] containing measurable business data, e.g.
+sales, clicks, revenue. Adajacent are [[id:5636a488-dd17-4a92-befd-d16eaa0a526d][denormalized]] [[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][dimension tables]] adding
+context to each fact, e.g. customers, products.
+
+* Pros
+
+- Faster queries due to lesser joins required to retrieve data.
+
+* Cons
+
+- Increased storage due to data redundancy
+- Maintenance challenges due to increased complexity (that increases with the
+  complexity of data hierarchies) to update data

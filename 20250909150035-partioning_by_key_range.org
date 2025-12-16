@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       32926d29-92a9-41fd-b865-725fd5581220
+:END:
+#+title: Partioning by Key Range
+
+Has the advantage of efficient range queries.
+
+May be susceptible to hot spots, e.g. if the key is a timestamp, and writes are
+high at certain times of day.

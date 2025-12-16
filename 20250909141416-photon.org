@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       04201d9d-ba9c-4ac6-8a91-7b1395900967
+:END:
+#+title: Photon
+
+[[id:bd57f66a-6bdf-47d7-a37a-ff265b2e6b69][Databricks']] native high-performance query engine written in C++ and designed for
+low-latency, high-throughput analytic queries.

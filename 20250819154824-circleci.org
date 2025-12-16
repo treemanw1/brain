@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4b1602b6-3a94-4f40-92f2-bfab3f8e91a6
+:END:
+#+title: CircleCI
+
+Cloud-based [[id:fb2738fb-3de8-4415-83f2-45bbe88ead61][CI/CD]] platform known for ease of use, strong GitHub integration, and
+speed through [[id:5226859b-93b0-4d6b-8391-df602733c0f4][parallelization]].

@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       98e58183-9573-4225-bc3d-23821166112e
+:END:
+#+title: Distributed Systems
+
+Collection of independent inter-communicating nodes that appear as a single
+coherent system to the user.
+
+Most content here is from Designing Data-Intensive Applications.
+
+* Concepts
+
+[[id:d997f264-234f-4a31-a86d-a6850004319f][Replication]]
+[[id:1c02a6a9-4582-4c35-a519-6dff0bf9d691][Partitioning]]
+
+** Three concerns of software systems
+
+1. Reliability
+
+   The system should continue to work correctly in the face of adversity
+
+2. Scalability
+
+   As the system grows, there should be reasonable ways of dealing with that
+   growth.
+
+3. Maintainability
+
+   Over time, as many different people work on the system, they should be able
+   to work on it productively.

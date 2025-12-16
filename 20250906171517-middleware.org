@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       17cbc09c-0b52-4abf-b4ee-5620c9285633
+:END:
+#+title: Middleware
+
+Software that acts as an intermediary between separate software
+applications/systems.

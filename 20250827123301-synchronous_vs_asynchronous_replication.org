@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       6f34a4f8-a436-4462-b220-7ab8cfcd7d09
+:END:
+#+title: Synchronous vs Asynchronous Replication
+
+In [[id:40f1985e-7c82-402b-847b-38733fda2d82][leader-based replication]], asynchronous replication is preferred.
+
+With synchronous replication, followes are guaranteed to have up-to-date data
+consistent with the leader. However, if a single follower fails, no writes can
+be made by the leader until the follower is available again. Not very practical.
+
+In practice synchronous replication involves making /one/ follower synchronous,
+so that there is an up-to-date copy on at least two nodes. Sometimes called
+semi-synchronous.
+
+Asynchronous replication has the benefit of processing writes even if followers
+are not updated (i.e. without waiting for all followers to be updated), but if
+the leader fails, writes not yet replicated are lost.

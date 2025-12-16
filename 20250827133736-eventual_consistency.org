@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       1b7b20d0-91da-43e1-8f91-e09b2f61c37b
+:END:
+#+title: Eventual Consistency

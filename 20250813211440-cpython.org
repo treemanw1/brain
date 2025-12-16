@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       20a9c245-f03d-4764-af27-59e8aa1c2550
+:END:
+#+title: CPython
+
+[[id:7fb025f1-7f3a-440a-b811-9a382edb97ba][Python]]'s default [[id:02c0fc1c-1e1c-432f-a592-824054dbe177][interpreter]] and compiler. Compiles Python into bytecode before
+interpreting it.

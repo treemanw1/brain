@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       84aec9fa-eb92-46e6-ae3c-da16bed538ec
+:END:
+#+title: Shrunken Dimension
+
+Conformed (smaller, rolled-up) subset of a base [[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][dimension]] that is reduced in
+size by eliminating detail (fewer attributes and rows) to match the grain of an
+aggregate [[id:e9a7cb26-87d7-4b86-bb25-f7cdc4538df1][fact table]].

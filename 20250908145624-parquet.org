@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       9b1e5e2a-22f2-4288-9d64-ad6f3c152c7f
+:END:
+#+title: Parquet
+
+Open-source column-oriented data storage format in the Hadoop ecosystem.
+
+* Benefits
+
+1. Improved Query Performance: Only queried columns need to be read rather than
+   entire rows.
+2. Reduced storage: Columnar compression (because column data is typically of
+   the same type), leads to smaller file sizes.

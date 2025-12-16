@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       399eb886-c008-47ed-bb50-63367222c9ef
+:END:
+#+title: Catalyst Optimizer
+
+Spark mechanism that assesses all the DataFrame transformations to be ran and
+determines the most efficient method of execution.

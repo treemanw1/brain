@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       4a43980c-f6ee-4e28-a1d5-d13938a9cfce
+:END:
+#+title: Delivery Guarantees
+
+Measure of how [[id:347fc663-140f-4a22-b80c-36bcac57423d][strongly]] a [[id:cde4d800-ff12-41af-804e-798e9f0cdb0e][messaging system]] enforces the delivery of messages.
+
+* Levels
+
+1. At most once
+
+2. At least once
+
+3. Exactly once

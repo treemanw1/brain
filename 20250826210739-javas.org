@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1ae825ed-2bfa-43bf-a134-2a633a542b20
+:END:
+#+title: Java
+
+High-level, object-oriented, [[id:e0848e9d-c7b8-4caf-a1ad-350c9bb434f9][garbage-collected]] programming language.
+
+Compiled to bytecode and can run on any [[id:2724ac12-ea37-45f8-a3a9-760f6baeffaa][JVM]] regardless of computer architecture.

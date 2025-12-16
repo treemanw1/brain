@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d02d8fda-59a3-40d9-ad72-2ba383bf0d37
+:END:
+#+title: Auto Loader
+
+[[id:bd57f66a-6bdf-47d7-a37a-ff265b2e6b69][Databricks]] feature designed for incremental and efficient processing of data
+from cloud storage sources into [[id:ed073e7e-3b4e-4385-ac27-6b1fab8d33fe][Delta Lake]] tables.

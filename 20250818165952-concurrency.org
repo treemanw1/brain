@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e5b2c7be-dacd-4383-9a86-a6ba925f4af0
+:END:
+#+title: Concurrency
+
+When a single thread works on multiple interruptible tasks sequentially.

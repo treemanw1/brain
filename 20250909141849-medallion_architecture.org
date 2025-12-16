@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       5e11da05-b5c9-45b7-a3fd-27cd80af430f
+:END:
+#+title: Medallion Architecture
+
+Data design pattern used to logically organize [[id:799590f5-0593-475e-8e6c-f208c369dec7][lakehouse]] data in increasingly
+structured and higher quality architectural layers.
+
+* Bronze Layer (raw data)
+
+Table containing all data from external source systems. Identical to source
+systems' table structures + additional metadata columns (e.g. load date/time).
+
+* Silver Layer (cleansed data)
+
+Raw data is cleaned "enough" to provide an enterprise view. Usually has a 3NF
+like form.
+
+* Gold Layer (business-level data)
+
+Data structured and organized for business intelligence or application usage.

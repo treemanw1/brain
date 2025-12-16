@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       ff23ecb7-ebbd-464c-b809-9e196d68b117
+:END:
+#+title: Programming Languages
+
+[[id:4239cc28-f098-44a8-84e5-2763d38da50c][Go]]
+[[id:7fb025f1-7f3a-440a-b811-9a382edb97ba][Python]]
+[[id:7bf0a93f-44b3-46e5-8546-24ec838c2491][JavaScript]]
+
+* OOP Languages
+- [[id:1ae825ed-2bfa-43bf-a134-2a633a542b20][Java]]
+
+* Functional Languages
+- [[id:64693ac5-642c-40da-8682-aed943fa15d4][Erlang]]
+- [[id:33e4e2d6-497f-41ee-9eb6-de051c1230a6][Elixir]]
+
+* Concepts
+- [[id:02c0fc1c-1e1c-432f-a592-824054dbe177][Interpretation]]
+- [[id:4686d6a5-bcf5-4c4c-93ce-07721602dd78][Compilation]]
+- [[id:82cdceb7-bdc5-4de2-8e1f-4665ef27b405][JIT Compilation]]
+- [[id:6a20472a-2cf0-4267-a8d1-ad82c66af37d][Runtime]]
+- [[id:e0848e9d-c7b8-4caf-a1ad-350c9bb434f9][Garbage Collection]]

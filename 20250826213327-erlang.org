@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       64693ac5-642c-40da-8682-aed943fa15d4
+:END:
+#+title: Erlang
+
+High-level, functional programming language with a robust, fault-tolerant,
+[[id:e0848e9d-c7b8-4caf-a1ad-350c9bb434f9][garbage-collected]] runtime ([[id:54049595-96ac-4e23-84e8-e9ef3842b25f][BEAM]]).

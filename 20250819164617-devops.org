@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       edbe13b6-dbe2-4964-9a74-351b6d777a56
+:END:
+#+title: DevOps
+
+Software development approach that emphasizes and collaboration, communication,
+and integration between software developers and operations teams.
+
+Aims to automate entire software development life-cycle from development to
+testing to deployment and operations.
+
+* Concepts
+
+- [[id:fb2738fb-3de8-4415-83f2-45bbe88ead61][CI/CD]]
+- [[id:bd215aad-60bf-4a37-ad42-1abe0e022e69][Git]]
+- [[id:ef9d5b3c-69b7-45c8-a62d-6a75f5c9cb85][Configuration Management]]
+- [[id:c404b5d0-aecb-4008-8915-ac33176ee7e9][Provisioning]]
+- [[id:beebead9-8c0a-4e60-977e-56ca4a1cc070][Container Orchestration]]
+- [[id:d245ddbe-8b95-4b30-aa1a-911677fdc231][Microservices]]
+- Software Composition Analysis

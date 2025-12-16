@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e0848e9d-c7b8-4caf-a1ad-350c9bb434f9
+:END:
+#+title: Garbage Collection
+
+Memory management method where the runtime automatically reclaims program
+allocated memory that is no longer referenced.

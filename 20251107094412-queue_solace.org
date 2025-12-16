@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       de451896-2f24-4542-a38c-1b3a013f810f
+:END:
+#+title: Queue (Solace)
+
+Endpoint in an event broker that stores guaranteed messages, and that can
+subscribe to multiple topics.
+
+Provides either exclusive access to one consumer or multiple consumers where
+messages are distributed across consumers (point-to-point messaging).

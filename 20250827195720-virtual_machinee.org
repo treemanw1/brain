@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       81f046e6-fc7e-4d1b-b68c-acf13d92a265
+:END:
+#+title: Virtual Machine

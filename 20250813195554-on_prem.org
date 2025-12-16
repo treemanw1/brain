@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       988deefa-8094-4eb4-8b4c-19d5678984c3
+:END:
+#+title: On-Prem
+
+On-prem or on-premises refers to IT infrastructure that is located and managed
+within a company's own facilities or data center rather than being hosted by a
+third party cloud provider.
+

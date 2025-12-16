@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       a84e29a7-99cb-4261-a1bb-a03074f842bb
+:END:
+#+title: Topic (Event-Driven Architecture)
+
+Channel in the publish-subscribe pattern where messages are published to.
+
+* Properties
+
+- Hierarchical: Text string describes the content of an event/message, for
+  example: =ecommerce/orders/created=
+- Non-durable: Messages delivered only to active subscribers

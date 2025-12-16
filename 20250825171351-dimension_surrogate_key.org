@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       0e4f9317-012d-4f98-8e4b-94c411b9b77e
+:END:
+#+title: Dimension Surrogate Key
+
+[[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][Warehouse]]-generated key that uniquely identifies a row in a [[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][dimension table]],
+ensuring stability, consistency, and versioning.

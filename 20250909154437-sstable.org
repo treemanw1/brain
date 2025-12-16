@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       99fece36-c02a-4f62-a93b-2d1e360f172c
+:END:
+#+title: SSTable
+
+aka Sorted String Table
+
+Segment files of key value pairs sorted by key written to disk.
+
+* Advantages
+
+1. Merging segments is fast (using Mergesort) as segments are already sorted.
+
+2. Doesn't require an in-memory hash map of all keys because key offsets can be
+   inferred from other key offsets.
+

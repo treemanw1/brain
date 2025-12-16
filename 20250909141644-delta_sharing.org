@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       167f5936-0532-48f0-859c-71d646ea3428
+:END:
+#+title: Delta Sharing
+
+Databricks' open protocol for secure data sharing  with external users who may
+or may not use Databricks.

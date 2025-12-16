@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       d245ddbe-8b95-4b30-aa1a-911677fdc231
+:END:
+#+title: Microservices
+
+Architecture for running applications as smaller, independent and loosely
+coupled services.
+
+* Pros
+
+- Helps you move fast at the start (developer productivity, feature velocity)
+
+* Cons
+
+Additional operational complexity
+
+- Network calls instead of function calls == latency, failure, retries
+- Complicated Monitoring + Logging
+- Difficult to setup development environments

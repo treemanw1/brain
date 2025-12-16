@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       221f21f0-a806-4840-8c91-dc193c9710b6
+:END:
+#+title: Event Loop
+
+Single thread that runs an event loop that pools for I/O readiness and
+dispatches [[id:9c66f185-3624-445f-b9f2-82eda37368af][callbacks]].
+
+Tasks are still executed synchronously so [[id:4955d01e-e111-4c35-9c65-22940c31976b][CPU]]-bound tasks will still block the
+loop.
+
+* Examples
+- [[id:7bf0a93f-44b3-46e5-8546-24ec838c2491][JavaScript]]
+- Python's [[id:97014a42-7491-48cd-bcc8-92e04f5c552d][asyncio]]

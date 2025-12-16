@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       255d128f-ffc8-4d6e-82ab-b9f9197ca60f
+:END:
+#+title: Apache Kafka
+
+Distributed event streaming platform for very high-throughput, fault tolerant
+ordered data streams.
+
+Append-only log where events are written to the end of each strictly-ordered
+[[id:0d38bfd6-b2c4-4e4d-a6c1-7a2cb9909f01][partition log]]. Events are written to disk sequentially using the OS page cache.
+
+* Concepts
+
+- [[id:0d38bfd6-b2c4-4e4d-a6c1-7a2cb9909f01][Partition Log]]
+- [[id:9a034611-b04d-4ca2-ae09-306af78793dd][Offset]]
+
+* Use cases
+
+/Streaming/ - Huge throughput of streaming data need to be stored, re-read, and
+analzyed.
+
+- [[id:d245ddbe-8b95-4b30-aa1a-911677fdc231][Microservices]]
+- Data pipelines ([[id:5b2e79f5-bb7b-4319-9246-106f4b053cf1][ETL]]/ELT)
+- Log aggregation

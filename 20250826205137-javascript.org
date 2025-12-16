@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       7bf0a93f-44b3-46e5-8546-24ec838c2491
+:END:
+#+title: JavaScript
+
+* Variable Declarations
+
+~var~: Function scoped
+
+~let~: Block scoped
+
+~const~: Block scoped

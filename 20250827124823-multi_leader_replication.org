@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       7cde5ad5-e0ad-4a7b-b5b6-cc1561504aef
+:END:
+#+title: Multi-Leader Replication
+
+Extension of [[id:40f1985e-7c82-402b-847b-38733fda2d82][Leader-Based Replication]] where more than one node can accept
+writes. Each leader simultaneously acts as a follower to other leaders.
+
+* Use cases
+
+
+* Handling Write Conflicts

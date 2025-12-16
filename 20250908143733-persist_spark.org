@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       abb051db-6663-428c-b1cf-c07dc726cb0e
+:END:
+#+title: Persist (Spark)
+
+Mechanism for optimizing performance by caching RDDs/DataFrames in memory or on
+disk to avoid reomputation for subsequent actions.
+
+~persist~: Enables developer to specify ~StorageLevel~, e.g. ~MEMORY_ONLY~,
+~DISK_ONLY~, ~MEMORY_AND_DISK_SER~
+
+~cache~: Shorthand for ~persist~ with ~MEMORY_AND_DISK_SER~

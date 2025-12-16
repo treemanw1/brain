@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7fb025f1-7f3a-440a-b811-9a382edb97ba
+:END:
+#+title: Python
+
+High level, dynamically typed [[id:ff23ecb7-ebbd-464c-b809-9e196d68b117][programming language]].

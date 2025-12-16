@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3b6616a9-e942-4552-9dae-2a6fa3c134e5
+:END:
+#+title: Data Lake
+
+Repository of data stored in a raw unstructured format, usually object blobs or
+files.

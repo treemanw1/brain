@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       5665111d-8d5c-4c3c-a696-0983ce2cbd95
+:END:
+#+title: Dimension Table
+
+Structure in a data warehouse that stores additional descriptive and contextual
+information, usually with reference to the metrics in a central [[id:e9a7cb26-87d7-4b86-bb25-f7cdc4538df1][fact table]].
+
+* Nulls
+
+Generally should be avoided because different databases handle null groupings
+and constraints inconsistently. A descriptive string such as "Unknown" or "Not
+Applicable" is recommended instead.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       18ceff83-5d0c-4aea-ab71-2944c2d669bb
+:END:
+#+title: Release Branching
+
+* When is it required?
+
+When multiple releases with indepedendent deployments are required.

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       1c02a6a9-4582-4c35-a519-6dff0bf9d691
+:END:
+#+title: Partitioning
+
+Division of data into smaller units on different nodes to improve performance or
+scalability.
+
+* Partioning Methods
+
+[[id:32926d29-92a9-41fd-b865-725fd5581220][Partioning by Key Range]]
+[[id:c2cdb1d7-7cb2-4d71-ab95-c9109a53ca72][Partitioning by Hash of Key]]

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4239cc28-f098-44a8-84e5-2763d38da50c
+:END:
+#+title: Go
+
+High level, statically typed, [[id:4686d6a5-bcf5-4c4c-93ce-07721602dd78][compiled]], programming language designed at Google
+for high performance networking and multiprocessing.
+
+Fast compile times due to innovations in dependency analysis.
+
+* Language features
+- [[id:9b402805-11de-400a-bbfc-c50cf8cc0bed][Goroutines]]
+- [[id:357f54ef-2387-470a-afc6-67d951eb95d4][Channels]]

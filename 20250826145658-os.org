@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       8c6df0aa-0a47-459d-b3be-4ac0442fb826
+:END:
+#+title: Operating Systems (OS)
+
+Fundamental intermediary between software and hardware.
+
+* Concepts
+
+[[id:0be57016-d620-4b18-ba70-553975b98974][Memory]]
+[[id:4955d01e-e111-4c35-9c65-22940c31976b][CPU]]
+[[id:461ac9ed-54c7-4117-814c-b0421162fa18][Process]]
+[[id:87685450-9446-49dd-aee0-0ae8928c59f2][Thread]]
+[[id:5226859b-93b0-4d6b-8391-df602733c0f4][Parallelism]]
+[[id:e5b2c7be-dacd-4383-9a86-a6ba925f4af0][Concurrency]]
+
+
+* Operating Systems
+** Linux

@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       357f54ef-2387-470a-afc6-67d951eb95d4
+:END:
+#+title: Channel (Go)

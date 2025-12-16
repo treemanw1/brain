@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       ef9d5b3c-69b7-45c8-a62d-6a75f5c9cb85
+:END:
+#+title: Configuration Management
+
+Management process that tracks and monitors changes to a software systems
+configuration metadata.
+
+* Why configuration management?
+
+For example in a microservice architecture, each service has configuration
+metadata, e.g. CPU/RAM resource allocations, secrets like passwords and
+encryption keys.
+
+Configuration management centralizes source of truth.

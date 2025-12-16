@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       40af5944-577c-4c81-9450-ad117c1bce4d
+:END:
+#+title: Lazy Evaulation
+
+Spark feature that holds off on executing transformations until an action is
+executed for optimization purposes, e.g. keeping entire dataframe in memory for
+a shorter duration.
+
+For example, ~df.filter()~ will not filter the dataframe until an action, e.g.
+~df.show()~ is ran.

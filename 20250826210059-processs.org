@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       461ac9ed-54c7-4117-814c-b0421162fa18
+:END:
+#+title: Process
+
+Instance of a program executed by one or many threads.

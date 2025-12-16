@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ba3b1d0a-878b-4866-a0fa-81dd522ba240
+:END:
+#+title: Catch-up recovery
+
+Technique a follower node uses to in the event of a fault under leader-based
+replication.
+
+Follower references the log of data changes on its disk it receives from the
+leader, identifies the last transaction made before the fault and requests all
+subsequent data changes from the leader.

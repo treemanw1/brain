@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       9fa961f4-94db-478d-8da4-3eac8ea56b05
+:END:
+#+title: Data Engineering
+
+Software Engineering discipline concerned with building systems for the
+collection and usage of data.
+
+Usually building, maintaining, and optimizing data pipelines and warehouses.
+
+* Concepts
+
+- [[id:1d1dec27-94fc-4605-9142-b40fd7db5618][Data Modeling]]
+- [[id:5b2e79f5-bb7b-4319-9246-106f4b053cf1][ETL]]/ELT Pipelines

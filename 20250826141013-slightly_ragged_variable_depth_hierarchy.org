@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       43d322a6-21a2-40ef-b0d4-e94819df54a3
+:END:
+#+title: Slightly Ragged/Variable Depth Hierarchy
+
+[[id:2146c531-4313-45bd-8850-038009be5744][Dimensional hierarchy]] that doesn't have a fixed number of levels, but where the
+range of depth is small.
+
+e.g. Geographical hierarchies

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ada58189-edec-4c80-ae0c-83889d7ba6e5
+:END:
+#+title: Snowflake
+
+Cloud-based data platform that enables organizations to store, manage, and
+analyze data.

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ee53ce1b-6f75-4d87-9c6a-5c2013d9b188
+:END:
+#+title: Durable Key
+
+Durable or durable supernatural keys are keys tagged to some entity that are
+persistent and which do not change unlike their [[id:1f23a0f3-e867-4a77-91dd-419d66f034e9][natural key]] counterparts.
+
+While multiple [[id:0e4f9317-012d-4f98-8e4b-94c411b9b77e][surrogate keys]] may be associated with an entity, e.g. an employee
+over time, the durable key never changes.

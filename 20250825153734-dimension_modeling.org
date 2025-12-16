@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       ea2d27bc-22bd-48db-a05c-d8a10f1b621b
+:END:
+#+title: Dimension Modeling
+
+[[id:1d1dec27-94fc-4605-9142-b40fd7db5618][Data modeling]] technique for [[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][data warehouses]] and business intelligence systems
+that structures data into [[id:e9a7cb26-87d7-4b86-bb25-f7cdc4538df1][fact tables]] and [[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][dimension tables]].
+
+Presents analytic data to the user to:
+
+1. Deliver data that is understandable to business users
+2. Deliver fast query performance

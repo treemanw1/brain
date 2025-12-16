@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d1dde541-656f-4ecf-9f86-df520e3e850d
+:END:
+#+title: Message Broker
+
+Service that manages the routing, delivery, and persistence of messages between
+producers and consumers.
+
+Supports multiple queues, [[id:110b962b-36fc-484e-aafe-7367e21cd7af][topics]], streams and is capable of fan-out. Handles
+persistence, retries, ordering, and sometimes filtering.

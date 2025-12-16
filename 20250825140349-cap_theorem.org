@@ -1,0 +1,22 @@
+:PROPERTIES:
+:ID:       35acbe97-b2ea-4297-94d7-8ea0c4296913
+:END:
+#+title: CAP Theorem
+
+Any distributed data store can have at most two of the three guarantees:
+
+1. Consistency
+
+   All clients must see the same data at the same time, regardless of which node
+   they connect to. Consequently, when data is written to a node, it must be
+   replicated to all other nodes in the system before it is deemed successful.
+
+2. Availability
+
+   All working nodes in the system must return a valid response for any request
+   without exception.
+
+3. Partition tolerance
+
+   The system continues to operate despite an arbitrary number of messages being
+   dropped by the network between nodes.

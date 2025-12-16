@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ae06b5bb-c4e1-4049-b3d3-791eb0e7f4d2
+:END:
+#+title: Network Service
+
+Application running at the network layer and above.
+
+* Examples
+
+- [[id:1563c712-6922-4295-9e7e-b219a8be42db][DNS]]

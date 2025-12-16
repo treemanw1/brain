@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       783a2d90-0561-4f4e-8e00-127d98880dce
+:END:
+#+title: Databases
+
+Organized collection of data managed by a database management system (DBMS).
+
+
+* Data Structures
+[[id:55b428ac-536d-47f3-a6a5-180d5da979db][Hash Indexes]]
+[[id:99fece36-c02a-4f62-a93b-2d1e360f172c][SSTable]]
+[[id:36d25dad-dcf4-473a-9b1d-fd63a40a91b3][LSM Trees]]
+[[id:8c147bf8-362f-4ce4-8b85-f8d21c0c792e][Bloom Filter]]
+[[id:312f21d2-8541-4f53-a6ed-cb9976c05222][B-Trees]]

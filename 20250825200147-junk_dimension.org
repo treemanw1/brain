@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       d25a5814-c358-45be-aa3d-a002d9a6aa46
+:END:
+#+title: Junk Dimension
+
+[[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][Dimension table]] created to hold miscellaneous low-cardinality attributes that
+don't belong in other dimensions to reduce clutter in the fact table, e.g.
+
+#+BEGIN_SRC text
+    DimJunkFlags
+
+    junk_key | is_promotional | is_returned | is_online
+    ---------|----------------|-------------|----------
+    1        | Y              | N           | Y
+    2        | N              | N           | Y
+#+END_SRC

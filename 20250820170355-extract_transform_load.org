@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       5b2e79f5-bb7b-4319-9246-106f4b053cf1
+:END:
+#+title: Extract, Transform, Load (ETL)
+
+Data pipeline comprising a three-phase computing process where data is extracted
+from an input source, transformed, and loaded into an central store (e.g. a [[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][data
+warehouse]])
+
+* Business use cases
+
+Anytime data needs to be aggregated for decision-making/operations.
+
+When data sources are numerous
+
+* Challenges
+
+1. Long-Term Maintenance
+
+Data sources and destinations change over time, which leads to downstream
+changes and tougher maintainability.
+
+* Best Practices
+
+1. Data Quality: Monitor and validate data quality before ingestion to ensure
+   data is sanitized.
+
+2. Automation: Utilising ETL automation to perform repetetive/error-prone tasks.
+
+3. Monitoring: Pipeline monitoring for warning signs.

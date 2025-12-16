@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a84e9c72-2b85-47a1-9053-91916d1792dc
+:END:
+#+title: Event-Driven Architecture
+
+Software architecture paradigm where applications are designed to react to
+events rather than replying on synchronous request/response interactions.

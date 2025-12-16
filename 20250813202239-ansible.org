@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       b2ce093e-28d9-48dd-b214-b3e83b5e31cd
+:END:
+#+title: Ansible
+
+Open-source automation tool used for [[id:ef9d5b3c-69b7-45c8-a62d-6a75f5c9cb85][configuration management]], application
+deployment, and task automation.
+
+Simplifies infrastructure management and orchestration through declarative
+playbooks that define desired states and configurations.
+
+* Concepts
+
+~Inventory~: List of hosts managed by Ansible
+
+~Play~: Sequence of tasks to be run on a server
+
+~Playbook~: Declares which plays execute on which hosts
+
+~Role~: Description of a server's purpose

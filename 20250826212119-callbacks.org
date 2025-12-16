@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       9c66f185-3624-445f-b9f2-82eda37368af
+:END:
+#+title: Callbacks
+
+Function that is passed as an argument to another function to be executed after
+a certain task or event has completed.
+
+* Examples
+
+- [[id:7bf0a93f-44b3-46e5-8546-24ec838c2491][JavaScript]]
+
+* Cons
+
+- Callback hell

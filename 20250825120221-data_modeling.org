@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1d1dec27-94fc-4605-9142-b40fd7db5618
+:END:
+#+title: Data Modeling
+
+Process of designing a blueprint that outlines how data is organized,
+structured, stored, and accessed within systems like [[id:783a2d90-0561-4f4e-8e00-127d98880dce][databases]] and [[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][data
+warehouses]].

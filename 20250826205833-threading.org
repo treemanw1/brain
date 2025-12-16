@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       6631518c-d392-41de-8d7b-5971e2665437
+:END:
+#+title: Threading
+
+The concurrent execution of multiple [[id:87685450-9446-49dd-aee0-0ae8928c59f2][threads]] within a single process.
+
+Certain programming languages grant the developer access to OS threads, e.g.
+Java's ~Thread~ and Python's ~threading~.
+
+Others such as Go grant threading via [[id:9b402805-11de-400a-bbfc-c50cf8cc0bed][lightweight threads]] that are multiplexed
+onto OS threads.
+
+* Pros
+
+Good for parallelism and running CPU-bound tasks
+
+* Cons
+
+- Context switching overhead
+- Synchronization complexity

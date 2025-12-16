@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       9120997c-d3b2-48e1-afce-e03252ad647e
+:END:
+#+title: Bridge Table
+
+Table that tracks relationships between entities.
+
+Example:
+
+#+BEGIN_SRC text
+    DimEmployee:
+    | EmployeeKey | EmployeeName |
+    |-------------+--------------|
+    | 1           | Alice        |
+    | 2           | Bob          |
+    | 3           | Carol        |
+    | 4           | Dave         |
+
+    BridgeTable_EmployeeHierarchy:
+    | AncestorKey | DescendantKey | Weight |
+    |------------+---------------+--------|
+    | 1          | 2             | 1      |
+    | 1          | 3             | 2      |
+    | 2          | 3             | 1      |
+    | 1          | 4             | 1      |
+    | 4          | 3             | 1      |
+#+END_SRC

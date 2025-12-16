@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       7273653b-d9c9-4fc1-a575-47fc688ecc6f
+:END:
+#+title: Message Queue
+
+Software component and pattern for asynchronous inter-process communication,
+where producers are decoupled from consumers, ensuring reliability by allowing
+messages to wait until the receiving application is ready.
+
+* Use cases
+
+Preferred over direct calls (synchronous communication) in scenarios where
+asynchronous processing is required, usually in distributed systems.
+
+1. Used for asynchronous tasks where results are not immediately required.

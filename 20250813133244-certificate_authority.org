@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       46158213-90f2-476a-bde0-c74d94e0f7a1
+:END:
+#+title: Certificate Authority
+
+Trusted third party that verifies the validity of public keys.
+
+* Why are CAs needed?
+
+Without CAs, malicious attackers are able to perform man-in-the-middle attacks
+by intercepting communications and substituting content with their own key pair,
+after which they are able to decrypt and alter messages.
+
+CAs prevent this by performing an additional check on public keys via their
+trusted public key which is usually pre-installed in the OS or browser.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       dce73538-4720-457e-8cad-4a32d63407da
+:END:
+#+title: Split Brain
+
+Phenomenon where two nodes believe themselves to be leaders during a [[id:8e388f87-1fa7-495a-b942-f8e8d4bed53a][failover]].
+Dangerous as both leaders may receive writes with no process for
+conflict-resolution.

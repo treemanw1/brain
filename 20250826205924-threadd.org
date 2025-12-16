@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       87685450-9446-49dd-aee0-0ae8928c59f2
+:END:
+#+title: Thread
+
+The smallest sequence of a program that is managed independently by a scheduler.
+Usually a component of a [[id:461ac9ed-54c7-4117-814c-b0421162fa18][process]].

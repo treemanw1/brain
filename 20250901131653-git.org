@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       bd215aad-60bf-4a37-ad42-1abe0e022e69
+:END:
+#+title: Git
+
+Distributed version control system.
+
+* Commands
+
+~git fetch~ Downloads remote repository changes to the local repository
+
+~git merge~ Integrates source branch changes into a target branch
+
+~git pull~ Combination of ~git fetch~ and ~git merge~
+
+~git cherry-pick~ Apply specific commits in a branch to another

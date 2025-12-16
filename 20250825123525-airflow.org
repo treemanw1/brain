@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       d2cdd744-55c4-4e55-941d-e75ff7a0565b
+:END:
+#+title: Airflow
+
+Apache Airflow is an open-source [[id:0c61cbe1-1eee-4e91-bed4-9d56198cf15f][workflow management]] platform designed for
+programatically scheduling and monitoring workflows (referred to as DAGs) for
+data pipelines.
+
+DAGs can be run on either a schedule or event-triggered and can be written in a
+single Python file.

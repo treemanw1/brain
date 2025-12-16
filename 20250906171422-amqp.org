@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       deaa9650-b870-4367-89e7-964726401c3c
+:END:
+#+title: AMQP
+
+Advanced Message Queueing Protocol is a application layer protocol for
+message-oriented [[id:17cbc09c-0b52-4abf-b4ee-5620c9285633][middleware]].

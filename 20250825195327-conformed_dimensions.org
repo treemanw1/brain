@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ad904c5c-bc84-4af5-905c-7953e15877e8
+:END:
+#+title: Conformed Dimensions
+
+[[id:5665111d-8d5c-4c3c-a696-0983ce2cbd95][Dimension]] that is shared across multiple [[id:e9a7cb26-87d7-4b86-bb25-f7cdc4538df1][fact tables]] that has the same meaning,
+values and structure whereever it is used.
+
+Important that the business processes/fact tables reference the same concept.

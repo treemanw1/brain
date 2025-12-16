@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       a9e6b177-3aaa-44b8-a013-544404de8c46
+:END:
+#+title: Bindings (RabbitMQ)
+
+Routing configuration on an exchange. Bindings have the following properties:
+
+1. Source Name (Exchange)
+
+2. Destination Name (Queue, Stream or Exchange)
+
+3. Destination Type
+
+4. Optional map of arguments
+
+Bindings inherit durability from their source and destination.

@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b6664230-7090-4c8d-aa7a-3fa6d020b994
+:END:
+#+title: Topic Endpoint (Solace)
+
+Endpoint in an event broker that stores guaranteed messages, and that can
+subscribe to a single topic.
+
+Provides either exclusive access to one consumer or multiple consumers where
+messages are distributed across consumers (point-to-point messaging).

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       5226859b-93b0-4d6b-8391-df602733c0f4
+:END:
+#+title: Parallelism
+
+Multiple threads performing independent tasks simultaneously.

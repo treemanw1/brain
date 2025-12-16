@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       4955d01e-e111-4c35-9c65-22940c31976b
+:END:
+#+title: CPU
+
+Components: ALU, Control Unit, Registers
+
+* How is CPU different from [[id:0be57016-d620-4b18-ba70-553975b98974][Memory]]?
+
+1. CPU fetches and executes instructions, performing calculations and logical
+operations.
+
+2. Memory is temporary storage for the CPU (slower than registers).
+
+* What is a CPU Core?
+
+CPU component that's usually semantically interchangeable with "processor", is
+1:1 with a thread in multithreading contexts.

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       bd57f66a-6bdf-47d7-a37a-ff265b2e6b69
+:END:
+#+title: Databricks
+
+Unified data platform built on top of [[id:3c0a3326-4019-47dd-b9d3-3a9f404d6a8f][Spark]] that simplifies complexities of
+deploying and managing Spark clusters.
+
+* Concepts
+
+[[id:9b1e5e2a-22f2-4288-9d64-ad6f3c152c7f][Parquet]]
+[[id:ed073e7e-3b4e-4385-ac27-6b1fab8d33fe][Delta Lake]]
+[[id:30be96ef-f606-47c6-a286-7cd224b30294][Lakeflow Declarative Pipelines]]
+[[id:b17a5f38-ad66-4449-b6d8-4510661ec5c6][Unity Catalog]]
+[[id:d02d8fda-59a3-40d9-ad72-2ba383bf0d37][Auto Loader]]
+[[id:167f5936-0532-48f0-859c-71d646ea3428][Delta Sharing]]
+
+[[id:a628e7f3-2eaf-4035-a289-5a7533c54f55][Databricks Asset Bundles]]

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       312f21d2-8541-4f53-a6ed-cb9976c05222
+:END:
+#+title: B-Trees
+
+Indexing structure that store key-value pairs sorted by key in a tree of pages,
+with each page identified using an address and where pages can reference other
+pages.
+
+B-Tree with n keys always maintains a depth of /O(log n)/.
+
+* Reliability
+
+Operations that involve overwriting several pages risk corruption. For example,
+on an insert that causes an overfill, two new split pages need to be written,
+and the parent page needs to be updated with the new references.
+
+If the crash occurs midway through rewrites, the index could become corrupted.
+
+This may be avoided through the use of a [[id:863de152-04be-410c-9868-2a145ae7bcde][Write-Ahead Log]].

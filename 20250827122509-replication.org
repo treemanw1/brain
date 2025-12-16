@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       d997f264-234f-4a31-a86d-a6850004319f
+:END:
+#+title: Replication
+
+Duplicating data across different nodes to provide redundancy and reduce
+latency.
+
+* Replication Models
+
+[[id:40f1985e-7c82-402b-847b-38733fda2d82][Leader-Based Replication]]
+[[id:7cde5ad5-e0ad-4a7b-b5b6-cc1561504aef][Multi-Leader Replication]]
+[[id:28d1ab5a-6b18-4cb2-95fa-07c1da735931][Leaderless Replication]]
+
+* Concepts
+
+[[id:6f34a4f8-a436-4462-b220-7ab8cfcd7d09][Synchronous vs Asynchronous Replication]]
+[[id:6f61e864-87d2-4e50-8f30-a78bf265da63][Replication Lag]]

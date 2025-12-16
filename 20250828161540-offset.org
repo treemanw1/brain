@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9a034611-b04d-4ca2-ae09-306af78793dd
+:END:
+#+title: Offset (Kafka)
+
+Position of an event in a [[id:0d38bfd6-b2c4-4e4d-a6c1-7a2cb9909f01][partition's log]].

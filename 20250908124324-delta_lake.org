@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       ed073e7e-3b4e-4385-ac27-6b1fab8d33fe
+:END:
+#+title: Delta Lake
+
+Optimized storage layer that provides the foundation for tables in a [[id:799590f5-0593-475e-8e6c-f208c369dec7][lakehouse]]
+on [[id:bd57f66a-6bdf-47d7-a37a-ff265b2e6b69][Databricks]].
+
+Extends [[id:9b1e5e2a-22f2-4288-9d64-ad6f3c152c7f][Parquet]] data files with a file-based transaction log for ACID
+compliance, and schema enforcement and evolution to introduce more
+warehouse-like functionality.

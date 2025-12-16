@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d187d387-68ca-43fa-becd-321fc36af4cd
+:END:
+#+title: Serverless
+
+[[id:627ee6ad-00e3-4b42-b4d2-2ecd5712d4c2][Cloud-computing]] execution model where the cloud provider manages infrastructure,
+enabling developers to focus on writing code.
+
+Often used for event-driven workloads and microservices.

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       476383cf-0f7b-43c4-83fa-a0b64f53ae18
+:END:
+#+title: Solace
+
+Platform designed for enterprise event-driven architecture across heterogenous
+systems.
+
+- Supports multiple protocols natively, e.g, AMQP, MQTT, REST, JMS, Websocket
+- Broker performs dynamic topic matching and routing
+
+* Concepts
+
+- [[id:de451896-2f24-4542-a38c-1b3a013f810f][Queue]]
+- [[id:b6664230-7090-4c8d-aa7a-3fa6d020b994][Topic Endpoint]]

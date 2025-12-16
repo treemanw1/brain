@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       45e07c0f-2e73-453b-996d-09d65e1b0d05
+:END:
+#+title: MSK (AWS)
+
+[[id:c9c96b2d-38a5-4c16-8376-c6611a561160][AWS]] streaming data service that simplifies the management of Apache Kafka
+infrastructure and operations.

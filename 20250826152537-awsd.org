@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       c9c96b2d-38a5-4c16-8376-c6611a561160
+:END:
+#+title: AWS
+
+Amazon Web Services. Comprehensive cloud computing platform.
+
+* Services
+- [[id:a6f94eaa-a23f-43e7-aeca-90b9a69d45b1][S3]]
+- [[id:d372d50f-44de-42d9-b4a4-6e9f84cbab79][VPC]]
+- [[id:dd4daacf-abd3-4fa8-b340-f01318cfe15e][EC2]]
+- [[id:3147c4ea-02fb-4009-81b6-4898522a2f44][Step Functions]]

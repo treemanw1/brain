@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       ec4e74ef-9c7e-4006-88a1-76674d193578
+:END:
+#+title: DataFrame (Spark)
+
+Distributed table-like abstraction built on top of RDDs.
+
+* DataFrame API
+
+** Transformations
+
+Method on a dataframe that returns a dataframe e.g. select, filter, join,
+groupBy, agg
+
+** Action
+
+Method on a dataframe that returns a value, e.g. collect, count, show

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       566854f1-48fd-4452-9a34-246018307516
+:END:
+#+title: Kubernetes
+
+Container orchestration platform.
+
+* What is the use case for Kubernetes?
+
+Kubernetes is great at handling the operational overhead introduced by
+[[id:d245ddbe-8b95-4b30-aa1a-911677fdc231][Microservices]], specifically through:
+
+- Service discovery
+- Load balancing
+- Rolling updates
+- Self-healing
+- Horizontal scaling
+
+
+* Concepts
+
+- [[id:8b107edd-0d3f-4c9a-94a1-3c4fdeb9f4e0][Pod]]
+- [[id:3897f37b-871b-49bc-97b8-1f7f594fc3fa][Node]]
+- [[id:3cc81cb9-5cf8-442a-9b2b-d14528f56c01][Cluster]]

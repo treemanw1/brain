@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       7faa283e-0638-448f-8a4f-4fabf8115211
+:END:
+#+title: I/O bound
+
+I/O-bound task is one which spends time waiting for I/O operations to complete
+rather than performing computations.
+
+e.g. Reading a large file from a hard drive, fetching data from a remote server

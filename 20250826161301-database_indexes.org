@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       40bd9425-f189-4fe6-b8c3-6f2d69f14c0e
+:END:
+#+title: Database Index
+
+Data structure designed to improve the speed of data retieval operations in a
+[[id:783a2d90-0561-4f4e-8e00-127d98880dce][database]] table.
+
+- [[id:55b428ac-536d-47f3-a6a5-180d5da979db][Hash Indexes]]

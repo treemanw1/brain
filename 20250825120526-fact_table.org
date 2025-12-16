@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       e9a7cb26-87d7-4b86-bb25-f7cdc4538df1
+:END:
+#+title: Fact Table
+
+Central table in a [[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][data warehouse]]. Rows have a one-to-one relationship with some
+business process measurement event based on a physical activity.
+
+* Fact Types
+
+1. Additive
+
+   - Can be summed across any dimensions in the fact table
+
+2. Semi-Additive
+
+   - Summed across some dimensions, e.g. balance amounts (can be summed across
+     all dimensions except time)
+
+3. Non-Additive  - e.g. Ratios
+
+* Nulls
+
+- Must be avoided in fact table's foreign keys due to the referential integrity
+violation
+- Dimension table should have a default row representing the unknown condition

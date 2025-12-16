@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3897f37b-871b-49bc-97b8-1f7f594fc3fa
+:END:
+#+title: Node
+
+Physical or virtual machine.

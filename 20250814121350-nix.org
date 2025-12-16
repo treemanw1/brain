@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       e17c6093-d2f0-46cc-ab8b-a80d6dd65c9a
+:END:
+#+title: Nix
+
+Purely functional package manager and system configuration tool.
+
+Explicit, declarative, and reproducible nix files.

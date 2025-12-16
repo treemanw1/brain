@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       02c0fc1c-1e1c-432f-a592-824054dbe177
+:END:
+#+title: Interpreter
+
+Program that directly executes code, as opposed to first compiling source code
+into machine code before execution.

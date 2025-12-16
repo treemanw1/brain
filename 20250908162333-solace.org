@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       f95fb034-da05-4ca7-b100-8b2080a32b92
+:END:
+#+title: PubSub+
+
+Event broker by [[id:476383cf-0f7b-43c4-83fa-a0b64f53ae18][Solace]] built for high throuput, low-latency, global event-driven
+architecture and event meshes.

@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       81987ef0-b1fb-441c-9061-d435e22e24c6
+:END:
+#+title: Consumer Acknowledgement and Publisher Confirms (RabbitMQ)
+
+Mechanism for delivery and processing confirmation of messages as they are not
+guaranteed to reach peers in a distributed system.
+
+* Consumer Acknowledgement Modes
+
+1. Automatic
+
+Message is considered received right after it is sent.
+
+2. Manual
+
+Message is considered received after the node receives an acknowledgement from
+the consumer.

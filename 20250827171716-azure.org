@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       7e6d63ac-69c2-4cee-b8df-5a4420a22921
+:END:
+#+title: Azure
+
+Microsoft's cloud computing platform.
+
+* Services
+
+- [[id:915c1abb-49d5-4c14-9335-389a290658f8][Event Hub]]

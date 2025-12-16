@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       5bb4c57a-1060-4da4-bb71-d486e1d69f05
+:END:
+#+title: Event Mesh
+
+Network of interconnected event brokers that enable event distribution across
+different environments, e.g. public cloud, on-prem, and multi-cloud setups to
+support [[id:a84e9c72-2b85-47a1-9053-91916d1792dc][event-driven architecture]].

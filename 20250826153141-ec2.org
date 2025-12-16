@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       dd4daacf-abd3-4fa8-b340-f01318cfe15e
+:END:
+#+title: EC2
+
+[[id:c9c96b2d-38a5-4c16-8376-c6611a561160][AWS]] Elastic Compute Cloud. Service that provides resizable compute via a shared
+or dedicated virtual server.

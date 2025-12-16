@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8c147bf8-362f-4ce4-8b85-f8d21c0c792e
+:END:
+#+title: Bloom Filter
+
+Memory-efficient data structure for approximating the contents of a set,
+indicating whether or not an element is definitely not in a set or possibly in a
+set.

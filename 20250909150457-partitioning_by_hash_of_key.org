@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       c2cdb1d7-7cb2-4d71-ab95-c9109a53ca72
+:END:
+#+title: Partitioning by Hash of Key
+
+Ideal hash function uniformly distributes skewed data.
