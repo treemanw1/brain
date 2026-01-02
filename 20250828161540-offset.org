@@ -4,3 +4,9 @@
 #+title: Offset (Kafka)
 
 Position of an event in a [[id:0d38bfd6-b2c4-4e4d-a6c1-7a2cb9909f01][partition's log]].
+
+Each consumer group may have it's own offset per [[id:1c02a6a9-4582-4c35-a519-6dff0bf9d691][partition]], so the same data can
+be read at different speeds and postiions by different consumers.
+
+These offsets are stored in Kafka's internal =__consumer_offsets= topic.
+

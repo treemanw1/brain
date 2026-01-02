@@ -22,3 +22,9 @@ analzyed.
 - [[id:d245ddbe-8b95-4b30-aa1a-911677fdc231][Microservices]]
 - Data pipelines ([[id:5b2e79f5-bb7b-4319-9246-106f4b053cf1][ETL]]/ELT)
 - Log aggregation
+
+* Features
+
+[[id:1eabe860-4e4c-4f0d-9e98-7dfd8e3e17d3][Backpressure]]: Consumers pull from Kafka's durable log at their own rate, hence
+consumers do not get overwhelmed.
+

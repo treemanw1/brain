@@ -6,6 +6,8 @@
 Division of data into smaller units on different nodes to improve performance or
 scalability.
 
+Can have multiple [[id:40f1985e-7c82-402b-847b-38733fda2d82][leader or follower]] partitions on a single node.
+
 * Partioning Methods
 
 [[id:32926d29-92a9-41fd-b865-725fd5581220][Partioning by Key Range]]

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       0ffb11a7-51cd-44b8-82bc-2c6ac1cd4c8f
+:END:
+#+title: Firehose (AWS)
+
+Managed service for delivering real-time streaming data to destinations e.g. S3,
+Redshift, HTTP endpoints.
+
+* Firehose vs MSK Sink Connect
+
+- Firehose can ingest from a myriad of sources whereas MSK Sink Connect connects
+purely to a MSK cluster.
+
+* Questions
+
+How does MSK Sink Connect help me leverage the features Kafka offers?

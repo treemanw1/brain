@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4f715873-2cbb-4fe4-b36c-e2f41d318033
+:END:
+#+title: Backfill
+
+Process of retroactively processing historical data into a system.
+

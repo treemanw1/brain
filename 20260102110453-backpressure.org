@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1eabe860-4e4c-4f0d-9e98-7dfd8e3e17d3
+:END:
+#+title: Backpressure
+
+Flow control mechanism where a slower data consumer signals to a faster data
+producer to slow down or temporarily stop sending data to prevent the consumer
+from being overwhelmed and data loss.
+

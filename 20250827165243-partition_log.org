@@ -8,3 +8,7 @@ Log of events on a [[id:1c02a6a9-4582-4c35-a519-6dff0bf9d691][partition]].
 Events are append-only, the parition strictly-ordered, and messages are read
 with an [[id:9a034611-b04d-4ca2-ae09-306af78793dd][offset]].
 
+Kafka deletes data via time or size-based retention. On delete offsets do not
+shift, they remain as they are.
+
+Partition logs are duplicated across multiple brokers for redundancy.

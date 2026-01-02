@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       a4b11a0a-9ccd-452a-a7e3-088c63b90340
+:END:
+#+title: Software Versioning
+
+Standard is semantic versioning (SemVer), e.g. =major.minor.patch=
+
+- Major: Breaking changes
+- Minor: Non-breaking features
+- Patch: Lowest risk changes
+
+* What constitutes a breaking change?
+
+Change to a public API that is not backward-compatible.
+
