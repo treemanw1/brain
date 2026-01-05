@@ -28,3 +28,8 @@ analzyed.
 [[id:1eabe860-4e4c-4f0d-9e98-7dfd8e3e17d3][Backpressure]]: Consumers pull from Kafka's durable log at their own rate, hence
 consumers do not get overwhelmed.
 
+API: Kafka offers APIs written in Java to enable applications to send and read
+streams of data to/from tpics in the Kafka cluster.
+
+For use cases where low-level fine grained control is not required, it is
+recommended to use Kafka with [[id:88e2c8f7-b0c3-43a1-9041-3863f497732b][Kafka Connect]] instead.

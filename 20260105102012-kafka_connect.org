@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       88e2c8f7-b0c3-43a1-9041-3863f497732b
+:END:
+#+title: Kafka Connect
+
+Tool for scalably and reliably streaming data between [[id:255d128f-ffc8-4d6e-82ab-b9f9197ca60f][Kafka]] and external
+systems.
+
+Higher level framework that provides many [[https://community.cloudera.com/t5/Support-Questions/When-to-use-Kafka-Connect-vs-Producer-and-Consumer/td-p/160484][out of the box]] features such as
+configuration management, offset storage, parallelization, error handling, and
+support for different data types.
+

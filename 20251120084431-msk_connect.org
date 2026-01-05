@@ -3,4 +3,10 @@
 :END:
 #+title: MSK Connect (AWS)
 
-[[id:45e07c0f-2e73-453b-996d-09d65e1b0d05][MSK]] feature that simplifies the streaming of data to and from MSK clusters.
+Amazon's fully managed service built on open-source Kafka Connect, simplifying
+the streaming of data to and from MSK clusters.
+
+Source connectors pull data from a data source and push this data into a
+cluster, whereas a sink connector pulls data from a cluster and pushes said data
+into a data sink.
+ 
