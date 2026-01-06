@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1e304908-6429-478d-87b5-c41dc3752af5
+:END:
+#+title: Glue (AWS)
+
+Fully managed serverless [[id:5b2e79f5-bb7b-4319-9246-106f4b053cf1][ETL]] data integration service that runs [[id:3c0a3326-4019-47dd-b9d3-3a9f404d6a8f][Apache Spark]]
+under the hood.
+
+I think of it as a [[id:bd57f66a-6bdf-47d7-a37a-ff265b2e6b69][Databricks]] alternative.

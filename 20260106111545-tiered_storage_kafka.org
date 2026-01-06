@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       0e8db4c8-45ed-48c5-b99b-bca0feecceff
+:END:
+#+title: Tiered Storage ([[id:255d128f-ffc8-4d6e-82ab-b9f9197ca60f][Kafka]])
+
+Data management strategy that separates data into a fast, expensive local tier
+(broker disks), and a slow, cheap remote tier (e.g. S3, HDFS) for older less
+frequently accessed data.
+
+Old data is automatically moved into the remote tier after some set time/size,
+allowing virtually unlimited retention.
+
+I believe most distributions that implement tiered storage present the data as a
+single seamless stream, even though the data is physically in two separate
+places.

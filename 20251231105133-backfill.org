@@ -5,3 +5,7 @@
 
 Process of retroactively processing historical data into a system.
 
+* Use Cases
+
+1. Bootstrapping a new service that requires all historical data.
+2. Rebuild state to troubleshoot bugs

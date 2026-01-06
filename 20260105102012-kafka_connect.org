@@ -4,9 +4,8 @@
 #+title: Kafka Connect
 
 Tool for scalably and reliably streaming data between [[id:255d128f-ffc8-4d6e-82ab-b9f9197ca60f][Kafka]] and external
-systems.
+systems, e.g. databases, key-value stores, search indexes, and filesystems.
 
 Higher level framework that provides many [[https://community.cloudera.com/t5/Support-Questions/When-to-use-Kafka-Connect-vs-Producer-and-Consumer/td-p/160484][out of the box]] features such as
 configuration management, offset storage, parallelization, error handling, and
 support for different data types.
-

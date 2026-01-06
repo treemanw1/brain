@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       255d128f-ffc8-4d6e-82ab-b9f9197ca60f
 :END:
-#+title: Apache Kafka
+#+title: Kafka
 
 Distributed event streaming platform for very high-throughput, fault tolerant
 ordered data streams.

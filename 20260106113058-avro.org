@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       50941aff-9cd6-4123-a47d-1d9c0b8691a6
+:END:
+#+title: Avro
+
+Data serialization system for efficient big data exchange and schema evolution
+by Apache.
+
