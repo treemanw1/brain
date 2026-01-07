@@ -26,3 +26,11 @@ arranged in sorted =date_key= order.
 Interestingly, when replicating data for redundancy, we can have different
 sortings on different partitions so that we can have pick the partition with the
 order that best fits the query.
+
+* Disadvantages
+
+1. Slow writes
+    To insert a row in the middle of a sorted table, a complete rewrite of all
+    column files would be required 
+
+    

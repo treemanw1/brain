@@ -3,9 +3,9 @@
 :END:
 #+title: Hash Index (Databases)
 
-Indexing technique where an in-memory hash map maps keys to the physical
-location of data records a log/disk with data being sequentially appended to
-said log.
+Indexing technique for key-value data where an in-memory hash map maps keys to
+the physical location of data records a log/disk with data being sequentially
+appended to said log.
 
 Disk space is preserved by breaking the log into segments they reach a certain
 size, after which segments are "compacted" by discarding duplicate keys in the

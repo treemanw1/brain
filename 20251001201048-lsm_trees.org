@@ -9,7 +9,7 @@ Combination of an in-memory data structure that accepts key-value pairs in
 random order and allows reads in sorted order (usually memory-balanced trees
 like Red-Black or AVL Trees) and [[id:99fece36-c02a-4f62-a93b-2d1e360f172c][SSTables]].
 
-* Workflow
+* Write workflow
 
 1. Insert key-value data into the in-memory tree.
 
@@ -21,12 +21,10 @@ like Red-Black or AVL Trees) and [[id:99fece36-c02a-4f62-a93b-2d1e360f172c][SSTa
 4. Keep an append-only log of inserted data on disk in the event the database
    crashes to recover in-memory data.
 
-
 * Usage
 
-- On read, a Bloom Filter may be used to test for presence of a key in the
+- On read, a [[id:8c147bf8-362f-4ce4-8b85-f8d21c0c792e][Bloom Filter]] may be used to test for presence of a key in the
   in-memory tree and SSTable segments.
-
 
 * Advantages
 
@@ -39,7 +37,8 @@ itself, and the entire disk page needs to be rewritten on change.
 
 ** 2. Sequential Writes
 
-Merging and compacting operations in LSM-Trees are also sequential, which are faster compared to random writes.
+Merging and compacting operations in LSM-Trees are also sequential, which are
+faster compared to random writes.
 
 ** 3. Disk Space
 

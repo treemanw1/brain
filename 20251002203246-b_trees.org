@@ -18,3 +18,5 @@ and the parent page needs to be updated with the new references.
 If the crash occurs midway through rewrites, the index could become corrupted.
 
 This may be avoided through the use of a [[id:863de152-04be-410c-9868-2a145ae7bcde][Write-Ahead Log]].
+
+* How does this relate to OTLP databases?

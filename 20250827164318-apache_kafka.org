@@ -13,7 +13,8 @@ Append-only log where events are written to the end of each strictly-ordered
 
 - [[id:0d38bfd6-b2c4-4e4d-a6c1-7a2cb9909f01][Partition Log]]
 - [[id:9a034611-b04d-4ca2-ae09-306af78793dd][Offset]]
-
+- [[id:d10c2abc-f1ac-49c9-a891-c9485c13df1e][Consumer Group]]
+  
 * Use cases
 
 /Streaming/ - Huge throughput of streaming data need to be stored, re-read, and

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       2fb437cd-47f9-43d1-8f56-a4fb89e6ae24
+:END:
+#+title: OLAP Cube
+
+[[id:391f14b8-8da4-4d36-8171-f0aebd18a9b2][Materialized view]] that is a grid of precomputed aggregates grouped by different
+dimensions.
+
+e.g. Two-dimensional grid of products and dates. So every cell can store the sum
+of an attribute, say ~net_price~, for that specific product and date.
+

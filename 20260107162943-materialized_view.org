@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       391f14b8-8da4-4d36-8171-f0aebd18a9b2
+:END:
+#+title: Materialized View
+
+A table-like object which contains an actual copy of query results as opposed to
+a virtual view, which is essentially a query shortcut.
+
+Materialized views may be used in [[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][data warehouses]] to cache common aggregate
+functions for analytic purposes, e.g. COUNT, SUM, AVG, MIN, MAX.
+
