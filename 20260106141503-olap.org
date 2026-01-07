@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       16ac9784-f6d8-41b1-b22b-4df2ecc28d53
+:END:
+#+title: OLAP
+
+Online Analytical Processing is a technology that enables fast, multidimensional
+analysis of large datasets to achieve business intelligence.
+

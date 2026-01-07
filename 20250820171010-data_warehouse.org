@@ -5,7 +5,8 @@
 
 Central repositories of data integrated from disparate sources.
 
-Stores data in a manner which optimizes for data analysis and report generation.
+Data storage that specifically optimizes for data analysis and report
+generation.
 
 * Common Technologies
 

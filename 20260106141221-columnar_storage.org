@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       83a873ab-a1e7-4729-9f4a-05b89b588882
+:END:
+#+title: Columnar Storage
+
+[[id:783a2d90-0561-4f4e-8e00-127d98880dce][Database]] design that stores data by column instead of row, grouping all values
+of a single column together contiguously on disk.
+
+Preferred form of storage for [[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][data warehouses]]/analytic queries ([[id:16ac9784-f6d8-41b1-b22b-4df2ecc28d53][OLAP]]) as usually
+only a few columns are requested in queries.
+
+* Columnar Compression
+
+Columnar storage is well suited for compression, specifically bitmap encoding,
+because columns typically have fewer distinct values compared to rows.
+
+These bitmap encodings are very well suited for typical data warehousing queries
+as well.
+
+* Sort Order
+
+We can impose a sort order which can be used as an indexing mechanism. For
+example, pick =date_key= as the first sort key so that column values are
+arranged in sorted =date_key= order.
+
+Interestingly, when replicating data for redundancy, we can have different
+sortings on different partitions so that we can have pick the partition with the
+order that best fits the query.

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d10c2abc-f1ac-49c9-a891-c9485c13df1e
+:END:
+#+title: Consumer Group (Kafka)
+
+A consumer group in Kafka is a collection of consumers that process messages
+from a topic in parallel.
+
