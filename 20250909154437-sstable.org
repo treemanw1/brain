@@ -5,8 +5,10 @@
 
 aka Sorted String Table
 
-Immutable segment files of key-value pairs sorted by key stored on disk indexed
-using a sparse in-memory hash map.
+Immutable segment files of key-value pairs sorted by key stored on disk.
+
+Typically indexed using a sparse in-memory hash map. Usually referenced as part
+of the implementation of [[id:36d25dad-dcf4-473a-9b1d-fd63a40a91b3][LSM-Trees]].
 
 * Advantages
 

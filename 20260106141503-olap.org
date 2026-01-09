@@ -3,6 +3,13 @@
 :END:
 #+title: OLAP
 
-Online Analytical Processing is a technology that enables fast, multidimensional
-analysis of large datasets to achieve business intelligence.
+Online Analytical Processing is a system that optimizes for fast,
+multidimensional analysis of large datasets to achieve business intelligence.
+
+An example of such a system would be a [[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][Data Warehouse.]]
+
+OLAP systems typically handle a lower volume of queries, but individual queries
+are very demanding, requiring scanning millions of records in a short time. [[id:aea191e9-9223-486c-8b4b-68c6cc10f074][Disk
+bandwidth]] is usually the bottleneck here, as data needs to be loaded into memory
+before queries can be executed.
 

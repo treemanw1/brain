@@ -5,12 +5,22 @@
 
 Organized collection of data managed by a database management system (DBMS).
 
-* Data Structures
+* Database Types
 
-** [[id:40bd9425-f189-4fe6-b8c3-6f2d69f14c0e][Indexes]]
+** [[id:4796ee9c-084d-4e49-80ff-bc2dcb177573][OLTP (Online Transaction Processing)]]
+
+** [[id:16ac9784-f6d8-41b1-b22b-4df2ecc28d53][OLAP (Online Analytical Processing)]]
+- [[id:83a873ab-a1e7-4729-9f4a-05b89b588882][Columnar Storage]]
+
+* Data Structures
 - [[id:55b428ac-536d-47f3-a6a5-180d5da979db][Hash Indexes]]
+
+** Log-Structured
+Immutable append-only files that are deleted when obsolete.
 - [[id:99fece36-c02a-4f62-a93b-2d1e360f172c][SSTable]]
 - [[id:36d25dad-dcf4-473a-9b1d-fd63a40a91b3][LSM Trees]]
 
-[[id:8c147bf8-362f-4ce4-8b85-f8d21c0c792e][Bloom Filter]]
-[[id:312f21d2-8541-4f53-a6ed-cb9976c05222][B-Trees]]
+** Update-in-place
+Allows disk pages to be overwritten.
+- [[id:312f21d2-8541-4f53-a6ed-cb9976c05222][B-Trees]]
+

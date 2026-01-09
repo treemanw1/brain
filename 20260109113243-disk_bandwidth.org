@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       aea191e9-9223-486c-8b4b-68c6cc10f074
+:END:
+#+title: Disk Bandwidth
+
+Maximum rate at which a storage device can transfer data.
+

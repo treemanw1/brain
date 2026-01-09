@@ -3,10 +3,8 @@
 :END:
 #+title: Data Warehouse
 
-Central repositories of data integrated from disparate sources.
-
-Data storage that specifically optimizes for data analysis and report
-generation.
+Central repository of data integrated from disparate sources and data storage
+that specifically optimizes for data analysis and report generation.
 
 * Common Technologies
 

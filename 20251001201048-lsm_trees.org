@@ -5,9 +5,9 @@
 
 a.k.a. Log-Structured Merge Trees
 
-Combination of an in-memory data structure that accepts key-value pairs in
-random order and allows reads in sorted order (usually memory-balanced trees
-like Red-Black or AVL Trees) and [[id:99fece36-c02a-4f62-a93b-2d1e360f172c][SSTables]].
+Combination of an in-memory data structure (typically red-black or AVL trees)
+that maintains key-value pairs in sorted order and [[id:99fece36-c02a-4f62-a93b-2d1e360f172c][sorted-string tables]]. 
+
 
 * Write workflow
 

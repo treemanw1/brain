@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       4796ee9c-084d-4e49-80ff-bc2dcb177573
+:END:
+#+title: OLTP
+
+Online Transactional Processing refers to systems specifically designed for
+large volumes of short, fast, real-time transactions.
+
+Prioritizes speed, concurrency, and reliability.
+
+Applications typically interact with OTLP systems by requesting retrieval of
+records using a key, which the storage engine searches for with an index.
+Typically disk seek time is the bottleneck here.
+
