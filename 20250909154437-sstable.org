@@ -5,12 +5,17 @@
 
 aka Sorted String Table
 
-Segment files of key value pairs sorted by key written to disk.
+Immutable segment files of key-value pairs sorted by key stored on disk indexed
+using a sparse in-memory hash map.
 
 * Advantages
 
-1. Merging segments is fast (using Mergesort) as segments are already sorted.
-
-2. Doesn't require an in-memory hash map of all keys because key offsets can be
-   inferred from other key offsets.
-
+- Sorted segment files can be merged quickly (using Mergesort) and deleted
+  after.
+  
+- In-memory hash index does not need to be fully populated, since offsets can be
+  inferred from other key offsets
+  
+- Sequential ranges of key-value between keys in the hashmap may be compressed
+  to save disk space and I/O bandwidth (number of bytes transferred from storage
+  to memory).
