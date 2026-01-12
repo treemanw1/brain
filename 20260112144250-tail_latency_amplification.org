@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b3894f0d-eb98-4c83-a33b-4b771dbe5077
+:END:
+#+title: Tail Latency Amplification
+
+Phenomenon in a distributed system where latency is likely to be high when the
+number of queried nodes over the network increases.
+

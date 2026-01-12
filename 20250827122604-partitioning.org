@@ -12,3 +12,5 @@ Can have multiple [[id:40f1985e-7c82-402b-847b-38733fda2d82][leader or follower]
 
 [[id:32926d29-92a9-41fd-b865-725fd5581220][Partioning by Key Range]]
 [[id:c2cdb1d7-7cb2-4d71-ab95-c9109a53ca72][Partitioning by Hash of Key]]
+[[id:bb48838d-7cc3-4925-94a7-68c3db2eeda9][Secondary Indexes]]
+

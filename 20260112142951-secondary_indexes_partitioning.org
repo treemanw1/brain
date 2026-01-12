@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       bb48838d-7cc3-4925-94a7-68c3db2eeda9
+:END:
+#+title: Secondary Indexes (Partitioning)
+
+Mainly two approaches to partioning a database with secondary indexes:
+
+* Document-Based Partitioning
+
+Each partition will maintain it's own secondary indexes locally.
+
+For example, for a database of cars with primary index ID and secondary indexes
+color and brand, a partition could look like:
+
+color: red [214]
+color: black [191, 306]
+brand: Honda [214]
+
+** Issues
+Queries are expensive because all partitions have to be searched, which is prone
+to [[id:b3894f0d-eb98-4c83-a33b-4b771dbe5077][tail latency amplification]]. 
+
+Database vendors suggest structuring partitioning scheme such that secondary
+queries can be served from a single partition, but that may not always be
+possible.
+
+
+* Term-Based Partitioning
+
+
