@@ -14,3 +14,8 @@ Can have multiple [[id:40f1985e-7c82-402b-847b-38733fda2d82][leader or follower]
 [[id:c2cdb1d7-7cb2-4d71-ab95-c9109a53ca72][Partitioning by Hash of Key]]
 [[id:bb48838d-7cc3-4925-94a7-68c3db2eeda9][Secondary Indexes]]
 
+* Concepts
+
+[[id:c7d501f9-d592-4e44-bdbd-b61c06d533df][Rebalancing Partitions]]
+[[id:2a7a5e78-293f-4415-889a-5a4275ddb897][Service Discovery]]
+

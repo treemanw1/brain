@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       c7d501f9-d592-4e44-bdbd-b61c06d533df
+:END:
+#+title: Rebalancing (Parititons)
+
+Changes to a database necessitate moving load from one node to another.
+
+* Objectives of Rebalancing
+
+1. Distribute load fairly between nodes in a cluster.
+2. Continue accepting reads and writes during rebalancing.
+3. Minimize data moved between nodes to minimize network and disk I/O load.
+
+* Rebalancing Strategies
+
+** 1. Fixed Partitioning
+
+Decide on a static number of partitions that should be high, many more than the
+number of nodes. The only thing that will change is the assignment of partitions
+to nodes.
+
+When a node is added, we can transfer partitions onto this node. Conversely,
+when a node is removed, we can distribute partitions to rest of the nodes.
+
+** 2. Dynamic Partitioning
+
+Split partition into two when it grows too large. Similarly, if a partition
+shrinks below some threshold, merge it with an adjacent partition.
+
+Number of partitions adapt to the total data volume. However, the database will
+start off with just a single partition. This may be mitigated by configuring an
+initial set of partitions on the empty database.
+
+** 3. Partition to Nodes
+
+Fixed number of partitions per node.
+
+When a new node joins the cluster, a fixed number of random partitions are
+split, and said node takes ownership of those halved partitions.

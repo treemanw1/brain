@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       2a7a5e78-293f-4415-889a-5a4275ddb897
+:END:
+#+title: Service Discovery  
+
+The problem where a client has to determine which node to connect to when
+interacting with a highly available service with multiple redundant nodes.
+
+* Approaches
+
+1. Allow clients to connect to any node.
+2. Send all requests to routing tier first, forwards to the relevant node.
+3. Require clients to be aware of partitioning and assignment of partitions to
+   nodes.
+   

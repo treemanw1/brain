@@ -16,6 +16,8 @@ color: red [214]
 color: black [191, 306]
 brand: Honda [214]
 
+Where 214, 191, and 306 are IDs of cars on this specific partition.
+
 ** Issues
 Queries are expensive because all partitions have to be searched, which is prone
 to [[id:b3894f0d-eb98-4c83-a33b-4b771dbe5077][tail latency amplification]]. 
@@ -24,7 +26,18 @@ Database vendors suggest structuring partitioning scheme such that secondary
 queries can be served from a single partition, but that may not always be
 possible.
 
-
 * Term-Based Partitioning
 
+A global index which covers data in all partitions. Term determines partition of
+the index.
+
+Example, for colors, car IDs with colors starting with /a/ to /r/ are stored in
+partition 0, while car IDs with colors /s/ to /z/ are stored on partition 1.
+
+Makes reads more efficient as client only needs to retrieve the partition
+containing the desired term.
+
+However, writes are more complicated because a write to a single document may
+affect multiple partitions with different secondary indexes on different
+partitions.
 
