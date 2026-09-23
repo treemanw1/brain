@@ -13,7 +13,8 @@ context to each fact, e.g. customers, products.
 * Pros
 
 - Faster queries due to lesser joins required to retrieve data.
-
+- Integrates well with Business Intelligence tools/engines e.g. Power BI/Tableau
+  
 * Cons
 
 - Increased storage due to data redundancy
