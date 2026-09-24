@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       1be83441-4b32-44ae-84f7-7813df0b918d
+:END:
+#+title: One Big Table (OBT)
+
+Also known as wide denormalized tables.
+
+Data modeling technique where all facts and dimensions are combined into a
+single wide [[id:5636a488-dd17-4a92-befd-d16eaa0a526d][denormalized]] table.
+
+- Massive storage due to denormalization can be offset be columnar formats e.g.
+  Parquet which compress repeated values
+  
+* Pros
+
+- Faster read performance because no need for expensive join operations
+- Less sophisticated queries (no joins)
+   
+* Cons
+
+- Single point of failure: Building of OBT is typically performed by a single
+  monolithic scheduled pipeline. Edits to pipeline, e.g. adding joins to include
+  a new column, may cause the entire OBT build to fail.
+
+- Shared blast radius: If many consumers share the single OBT, they are all
+  exposed to all deploys because all edits go through the one pipeline.
+
+* Use Case
+
+- Rapid prototyping/MVP
