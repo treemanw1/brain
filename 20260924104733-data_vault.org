@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       96adbfb9-0699-4d5d-b52b-e1364b658775
+:END:
+#+title: Data Vault
+
+Data model that acts as an integration/storage layer for enterprise data
+warehouses to manage complex changing source systems while mantaining an audit
+history.
+
+Prioritizes adaptability and historical accuracy over query performance.
+
+Comprises of three entities:
+
+1. Hubs - Represents core business concepts
+
+   Stores unique business keys that identify core business entities.
+   
+2. Links - Represents relationships between hubs
+
+   Captures complex business relationships e.g. “customer purchased product at
+   location using promotion.”
+   
+3. Satellites - Stores information about hubs and relationships between them.
+
+   Stores descriptive attributes about Hubs and Links with historization:
+   records include effective dates and end dates, creating a complete timeline
+   of how attributes changed.
+
+[[https://montecarlo.ai/blog-data-vault-architecture-data-quality][Referenced blogpost]]
+
+* Pros
+
+ETLs require less refactoring when models change
