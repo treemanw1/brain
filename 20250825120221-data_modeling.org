@@ -6,3 +6,9 @@
 Process of designing a blueprint that outlines how data is organized,
 structured, stored, and accessed within systems like [[id:783a2d90-0561-4f4e-8e00-127d98880dce][databases]] and [[id:b61158a5-87d6-4895-891f-c4ced0f52b9b][data
 warehouses]].
+
+* Data Models
+
+1. [[id:7e79d06c-6b6d-4c7c-98dc-77deb2e33d94][Star Schema]]
+2. [[id:1be83441-4b32-44ae-84f7-7813df0b918d][One Big Table (OBT)]]
+3. [[id:96adbfb9-0699-4d5d-b52b-e1364b658775][Data Vault]]
