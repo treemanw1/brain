@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       6023d264-bea9-4c95-a17d-f7b06931a9e7
+:END:
+#+title: Bronze Layer (Medallion Architecture)
+
+Source of truth of raw data exactly as it arrives from source systems.
+
+Minimal transformation: Data stored in its original format (or converted to
+Delta for auditability).
+
+Immutable: Data is append-only, never updated or deleted.
+
+Schema-on-read: Flexible schema handling for diverse source systems.
+
+Audit trail: For some applications (such as GDPR or regulated data), it may be
+appropriate to convert this layer to Delta format.
+
+* Best practices for bronze layer
+
+- Preserve all source data fields for complete auditability.
+- Use Unity Catalog volumes for landing raw files.
+- Implement incremental ingestion to avoid full reprocessing.
+- Partition by ingestion date for efficient data management.
+- Document data sources and ingestion schedules.
+

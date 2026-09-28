@@ -6,7 +6,7 @@
 Data design pattern used to logically organize [[id:799590f5-0593-475e-8e6c-f208c369dec7][lakehouse]] data in increasingly
 structured and higher quality architectural layers.
 
-* Bronze Layer (raw data)
+* [[id:6023d264-bea9-4c95-a17d-f7b06931a9e7][Bronze Layer]] (raw data)
 
 Table containing all data from external source systems. Identical to source
 systems' table structures + additional metadata columns (e.g. load date/time).
