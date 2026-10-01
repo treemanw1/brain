@@ -5,4 +5,3 @@
 
 Data structure designed to improve the speed of data retieval operations/reads
 in a [[id:783a2d90-0561-4f4e-8e00-127d98880dce][database]] table.
-

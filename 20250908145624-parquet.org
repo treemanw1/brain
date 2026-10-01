@@ -5,6 +5,10 @@
 
 Open-source column-oriented data storage format in the Hadoop ecosystem.
 
+Each parquet file still contains, X number of rows, it's just that the way in
+which this data is stored on disk is such that the column values are physically
+written together.
+
 * Benefits
 
 1. Improved Query Performance: Only queried columns need to be read rather than

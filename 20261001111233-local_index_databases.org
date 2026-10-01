@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       377c332f-e08b-4310-9df4-add056d85b41
+:END:
+#+title: Local Index (Databases)
+
+[[id:40bd9425-f189-4fe6-b8c3-6f2d69f14c0e][Database index]] tied directly to a specific [[id:4b3221ca-f37c-4a92-9aa3-29116154c3d0][data partition]] or shard, where each
+partition maintains its own isolated index mapping only the data it owns.
+
+As opposed to a Global Index which is built across an entired
+partitioned/distributed database table.
+

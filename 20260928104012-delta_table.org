@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       01826cb4-0614-4cda-aff0-2dad69b94a6d
+:END:
+#+title: Delta Table
+
+Tabluar structure built on top of [[id:ed073e7e-3b4e-4385-ac27-6b1fab8d33fe][Delta Lake.]]
+

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       98f5c162-e165-4105-80e0-ba65feace87b
+:END:
+#+title: Liquid Clustering
+
+[[https://docs.databricks.com/aws/en/tables/clustering][Data layout optimization technique]] built on [[id:ed073e7e-3b4e-4385-ac27-6b1fab8d33fe][Delta Lake]] that replaces [[id:4b3221ca-f37c-4a92-9aa3-29116154c3d0][table
+partitioning]] and [[id:5c91ca7b-efbf-4e28-9036-4a93646112f3][z-ordering]]. 
+
+Simplifies table management and optimizes query performance by automatically
+organizing data based on clustering keys.
+

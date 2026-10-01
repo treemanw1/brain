@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       4b3221ca-f37c-4a92-9aa3-29116154c3d0
+:END:
+#+title: Table Partitioning
+
+Data organization scheme where a large [[id:783a2d90-0561-4f4e-8e00-127d98880dce][database]] table is partitioned into
+smaller, independent pieces by a partition key (set of column(s)) for improved
+query/read and bulk operation (inserts/updates/deletes) performance.
+
+Each individual partition may have its [[id:377c332f-e08b-4310-9df4-add056d85b41][own index]] for improved performance.
+
+* RDMBS
+
+Database engine manages partitions as child tables/storage segments.
+
+* [[id:ed073e7e-3b4e-4385-ac27-6b1fab8d33fe][Delta Lake]]
+
+Parquet files are partitioned across folders by partition key column(s).
+
+sales_table/
+  date=2024-01-01/
+    file1.parquet, file2.parquet
+  date=2024-01-02/
+    file1.parquet
+  date=2024-01-03/
+    file1.parquet, file2.parquet
+
+Repartitioning with a new partition key is expensive, requiring a full rewrite
+of parquet files in order to distribute them across the new folder structure.
+
+[[id:98f5c162-e165-4105-80e0-ba65feace87b][Liquid clustering]] addresses this pain point by clustering data on clustering
+keys instead, allowing for changing of clustering keys without rewrites.
+

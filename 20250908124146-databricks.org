@@ -16,3 +16,4 @@ deploying and managing Spark clusters.
 [[id:167f5936-0532-48f0-859c-71d646ea3428][Delta Sharing]]
 
 [[id:a628e7f3-2eaf-4035-a289-5a7533c54f55][Databricks Asset Bundles]]
+[[id:2343d6f9-9089-4cbc-b148-8fc07d2417de][Databricks SQL Warehouse]]
