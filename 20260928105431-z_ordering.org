@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       5c91ca7b-efbf-4e28-9036-4a93646112f3
+:END:
+#+title: Z-Ordering
+
+Data layout technique used in Databricks [[id:ed073e7e-3b4e-4385-ac27-6b1fab8d33fe][Delta Lakes]] that improves query
+performance by physically grouping related data values across multiple columns
+on disk.
+
+* Z-order curves
+
+Functions that map multi-dimensional data to one dimension while preserving
+locality of data points.
+
+* How it works
+
+1. For each row, the values of the columns you're Z-ordering by (e.g.,
+   product_id, region) are combined into a single Z-value by interleaving the
+   bits of those columns' values.
+
+        product_id = 5   → binary: 101
+        region_code = 3  → binary: 011
+
+        Interleave bits: 1 0 1 (from product_id) + 0 1 1 (from region)
+        → interleaved: 1 0 0 1 1 1  (alternating bits from each column)
+
+2. All rows are sorted by this computed Z-value.
+   
+3. Z-value-sorted rows are written into new files sequentially (chunked into
+   appropriately-sized files).
+
+* How does this improve query performance?
+
+Without Z-Ordering, columns in parquet files may have very wide ranges of
+values, e.g. product_id min=1, max=999, hence queries have to search through
+entire files.
+
+With Z-Ordering, the combined ordering stores rows that are "close" across
+several columns in a file, resulting in tighter min/max ranges for all Z-ordered
+columns simultaneously, allowing multi-column filters to skip files more
+effectively.
+
